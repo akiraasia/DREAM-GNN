@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import torch
 import torch.optim as optim
+import torch.nn as nn
 import time
 
 from src.data_loader import DataLoader
