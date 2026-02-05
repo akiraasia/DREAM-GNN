@@ -1,0 +1,2567 @@
+Key ID,Set ID,Amendment,Date entered,Common name,Full name,Corresponding contributor ID,Data URL,Contributors,Number of samples,Number of subjects,Proportion REM,Proportion N1,Proportion N2,Proportion W,Proportion experience,Proportion no-experience,Proportion healthy,Provoked awakening,Time of awakening,Form of response,Experimental description,Study location,Study year,Publications,Correspondence note,Data restriction note,Date approved,Accessibility,Revoked,Latest amendment
+1,1,0,1647866810,Zhang & Wamsley 2019,#N/A,3,https://doi.org/10.6084/m9.figshare.22226692,"Jing Zhang, Erin Wamsley",308,28,0.0844156,0.246753,0.340909,0.311688,0.772727,0.227273,1,Yes,Mixed,Free,"Dream EEG and Mentation (DREAM) data set
+
+
+---Data set information---
+
+Common name: Zhang & Wamsley 2019
+Full name: N/A
+Authors: Jing Zhang, Erin Wamsley
+Location: Furman University, Greenville SC
+Year: N/A
+Set ID: 1
+Amendment: 0
+Corresponding author ID: 3
+
+Previous publications:
+Zhang, J., & Wamsley, E. J. (2019). EEG predictors of dreaming outside of REM sleep. Psychophysiology, 56(7), e13368.
+
+Correspondence:
+Dr. Erin Wamsley: erin.wamsely@furman.edu
+
+---Metadata---
+
+Key ID: 1
+Date entered: 2022-03-21T12:46:50+00:00
+Number of samples: 308
+Number of subjects: 28
+Proportion REM: 12%
+Proportion N1: 36%
+Proportion N2: 50%
+Proportion W: 0%
+Proportion experience: 23%
+Proportion no-experience: 77%
+Proportion healthy: 100%
+Provoked awakening: Yes
+Time of awakening: Mixed
+Form of response: Free
+Date approved: 2022-03-21T13:09:17+00:00
+
+
+---How to decode data files---
+
+Sleep stage codes in the filenames/Case IDs:
+
+""SO#"" = sleep onset reports collected after <=90sec of sleep. ""#"" represents the order in which reports were collected.
+NREM = reports intended to be collected following at least 10min of PSG-defined N2
+REM = reports intended to be collected following at least 5min of PSG-defined REM sleep
+Morning = a final report collected on morning awakening, regardless of sleep stage
+
+The INTENDED sleep stage indicated by these labels does not necessarily match the ACTUAL sleep stage of the last epoch just before the dream report marker, as listed in records.csv. This is for two reasons:
+ 1 - Sometimes, research assistants inadvertantly elicited reports from the wrong sleep stage
+ 2 - In other cases, the dream report marker was delayed for a few seconds, and a few seconds of wake preceeds the dream report marker, even though the participant had mostly been asleep prior to the marker.
+
+In our publication referenced here, we excluded reports that were concluded to be from the incorrect pre-awakening stage.
+In this archive, we include those reports.
+
+In some cases, participants were actually scored as being AWAKE just before a report was elicited.
+In records.csv, 0 = last epoch before the report was WAKE.
+
+--Treatment group codes--
+
+N/A
+
+
+---Experimental description---
+
+See also Zhang & Wamsley 2019.
+
+Participants
+Participants (age 18-23) were recruited through advertisement on campus, and respondents were excluded from enrolling if they had a history of sleep or mental disorders, were currently using medications known to interfere with sleep, or had little or no prior experience playing 3D style video games (due to the goals of the larger study of which this research was a part). Participants were asked to maintain a regular sleep schedule for three consecutive nights prior to the experimental night (confirmed by sleep log), to refrain from recreational drugs or alcohol for 24hrs prior to their appointment, and not to drink caffeine after 10am on the day of the study. Participants received monetary compensation at the conclusion of the study. The study was approved by the IRB committee at Furman University in Greenville, SC.
+
+Procedure
+Participants signed informed consent prior to filling out a demographics form, Epworth sleepiness scale (Johns, 1991), and a 3-day retrospective sleep log. High-density electrode caps (BrainProducts) were used to record EEG throughout the night (58 EEG electrodes placed following the international 10-10 system). During recording, EEG signals were referenced to the contralateral mastoid to aid on-line sleep staging. Additionally, muscle tone was monitored using electromyography (EMG; bipolar chin leads) and eye movement was monitored using electrooculography (EOG; left and right outer canthus). All data were recorded at 400Hz using a Grass-Telefactor AURA amplifier with a high-pass filter at 0.1Hz. After applying the electrodes, participants were randomly assigned to either train on a virtual maze navigation task (Wamsley, Tucker, Payne, & Stickgold, 2010; Wamsley, Tucker, Payne, Benavides, & Stickgold, 2010) or complete a control task (the psychomotor vigilance task (PVT) (Dinges & Powell, 1985)). In both groups, participants also underwent a 7min eyes-closed baseline EEG recording both before and after task performance. These training procedures were a part of a larger study investigating memory reactivation following a spatial learning task and its effect on memory consolidation. The experimental group was trained on the maze navigation task prior to sleep and was tested on the same task the next morning, while the control group was trained on the PVT prior to sleep and performed maze navigation task the next morning. Results of this behavioral testing are not discussed here but will be reported in a subsequent paper. The two tasks did not substantially influence dream content as only one mentation report was judged by raters to be task-related.
+Prior to sleep, participants were given instructions on how to provide open-ended mentation reports throughout the night. Specifically, they were asked to verbally describe “everything that was going through your mind just before I called” whenever they heard the prompt “please report now”. Participants were instructed to provide as much detail as possible on their experience, regardless of whether they considered it to be a “dream” or not, and were instructed that if they cannot remember their experience or were not having an experience, they should state this instead.
+
+Participants lay down to begin a 9hr sleep opportunity at approximately 11pm. After participants entered sleep, indicated by online PSG (polysomnographic) monitoring, they were awoken periodically to provide verbal reports on their mental experience. Following our prior work, we maximized the number of report samples per participant by conducting a large number of awakenings during the sleep onset period (during which dream recall is high and participants are able to fall back to sleep quickly) combined with a smaller number of awakenings later in the night (Wamsley, Perry, Djonlagic, Reaven, & Stickgold, 2010). Up to 10 “sleep onset” dream reports were obtained during the first hour of the night, collected after 30, 60, or 90 seconds of elapsed sleep (order of latency counterbalanced across participants). As a result, sleep onset reports occurred during a mix of NREM stages -- 61% of sleep onset reports were obtained from N1, 38% from N2, and 2% from N3. Then, at least one hour after the last sleep onset awakening, one N2 sleep report (following at least 10min of PSG-defined N2) and one REM sleep dream report (following at least 5min of PSG-defined REM) were collected, also in counterbalanced order. N2 and REM report awakenings were separated by at least 30min. Participants were then allowed to sleep uninterrupted until being awoken at approximately 8am the next morning to provide a final dream report, regardless of sleep stage. These morning reports were also classified as either “REM” or “N2” reports according to the last sleep stage present prior to awakening, and analyzed along with other REM and N2 reports. As described below, 3 of these morning reports were excluded, either because the participant was in slow wave sleep rather than N2 prior to awakening, or because EEG data prior to awakening were unusable. Although systematic awakenings from slow wave sleep would be of theoretical interest, concerns regarding the possible introduction of sleep deprivation precluded conducting a larger number of nocturnal awakenings. At each report time point, participants were first awoken by calling their name, and then heard a standardized prompt “Please report now”. Verbal reports were digitally recorded and transcribed for subsequent analysis.
+
+--DREAM categorization procedure--
+
+In this study, we define a “dream” as any mental experience recalled from sleep. Reports were coded for the presence of dream content by 2 independent judges, who were blind to sleep stage. For each report, judges assessed whether the report contained a description of any mental content.
+
+Participants were not asked to assess whether they might have been dreaming, but failed to recall the dream. Therefore, the dream reports are coded only as:
+0 = no experience
+2 = experience
+
+
+---Technical details---
+
+N/A
+
+
+--Data acquisition--
+
+High-density electrode caps (BrainProducts) were used to record EEG throughout the night (58 EEG electrodes placed following the international 10-10 system). During recording, EEG signals were referenced to the contralateral mastoid to aid on-line sleep staging. Additionally, muscle tone was monitored using electromyography (EMG; bipolar chin leads) and eye movement was monitored using electrooculography (EOG; left and right outer canthus). All data were recorded at 400Hz using a Grass-Telefactor AURA amplifier with a high-pass filter at 0.1Hz.
+
+
+--Data preprocessing--
+
+These data have been filtered a 0.3-35Hz, and a 60Hz notch filter is applied.
+
+Eye channels are referenced to the contralateral mastoid.
+The two chin leads are referenced to eachother.
+EEG channels are currently unreferenced -- prior to analysis, an appropriate EEG reference needs to be selected.
+
+A1 = left mastiod
+A2 = right mastiod
+
+EEG electrodes labeled according to the 10-10 system.
+Ground electrode was placed on the forehead.
+","Furman University, Greenville SC",#N/A,"Zhang, J., & Wamsley, E. J. (2019). EEG predictors of dreaming outside of REM sleep. Psychophysiology, 56(7), e13368.",Dr. Erin Wamsley: erin.wamsely@furman.edu,#N/A,1647868157,Open,FALSE,TRUE
+2,2,0,1655202483,Oudiette_N1Data,#N/A,10,https://doi.org/10.6084/m9.figshare.22210684,"Célia Lacaux, Thomas Andrillon, Isabelle Arnulf & Delphine Oudiette",246,63,0,0.0569106,0.0934959,0.849593,0.869919,0.0731707,1,Yes,Day,Free,"Dream EEG and Mentation (DREAM) data set
+
+
+---Data set information---
+
+Common name: Oudiette_N1Data
+Full name: N/A
+Authors: Célia Lacaux, Thomas Andrillon, Isabelle Arnulf & Delphine Oudiette
+Location: The Paris Brain Institute (France)
+Year: 2021
+Set ID: 2
+Amendment: 0
+Corresponding author ID: 10
+
+Previous publications:
+N/A
+
+Correspondence:
+Nicolas Decat (E: nicolasdecat59@gmail.com)
+
+
+---Metadata---
+
+Key ID: 2
+Date entered: 2022-06-10T12:44:18+00:00
+Number of samples: 252
+Number of subjects: 63
+Proportion REM: 0%
+Proportion N1: 6%
+Proportion N2: 9%
+Proportion W: 85%
+Proportion experience: 87%
+Proportion no-experience: 7%
+Proportion healthy: 100%
+Provoked awakening: Yes
+Time of awakening: Day
+Form of response: Free
+Date approved: 2022-06-14T10:27:11+00:00
+
+
+---How to decode data files---
+
+N/A
+
+--Treatment group codes--
+
+N/A
+
+
+---Experimental description---
+
+Data was collected as part of a study investigating the role of the falling-asleep process on creative insight. A creativity task was completed prior to and following a 30-minute daytime nap, during which subjects (N=63, 18-35yo) were sitting on a reclining chair. Mental content was probed 4 times every 6 minutes. For each probe, subjects were asked to describe out loud what went through their mind prior to the alarm.
+
+--DREAM categorization procedure--
+
+We classified participants' reports as:
+- Experience (E): something (i.e., thoughts, imagery) went through their mind at the probe.
+- No Experience (NE): nothing went through their mind at the probe.
+- Experience Without Recall (WR): something went through their mind at the probe but they could not recall any mental content.
+
+Conscious experiences (E) were further defined as hypnagogic if it was “fleeting, involuntary, spontaneous, perceptual, and bizarre”, else they were defined as ""waking thoughts"".
+Note: Mental content is currently in French.
+
+
+---Technical details---
+
+No artefacts
+Note: In all recordings, EOG and EMG signals were clipped at 100uV.
+
+--Data acquisition--
+
+3 EEG electrodes (C3, O1, Fp1)
+2 EOG
+1 chin EMG
+256Hz sampling rate
+
+--Data preprocessing--
+
+0.1-40Hz unstopped EEG frequency band
+Reference to mastoid (A2)
+Data are originally in EDF => chunked with FASST toolbox to get only the N1 episode that precedes the awakening & dream report (new format: .mat + .dat)
+",The Paris Brain Institute (France),2021,#N/A,Nicolas Decat (E: nicolasdecat59@gmail.com),#N/A,1655202431,Open,FALSE,TRUE
+3,3,0,1667467291,LODE,The Language of Dreams,6,https://doi.org/10.6084/m9.figshare.22147085.v1,"Valentina Elce, Damiana Bergamo, Giulia Avvenuti, Michele Bellesi, Giulio Bernardi",190,28,0.331579,0.0368421,0.621053,0,0.621053,0.305263,1,No,Morning,Free,"Dream EEG and Mentation (DREAM) data set
+
+
+---Data set information---
+
+Common name: LODE
+Full name: The Language of Dreams
+Authors: Valentina Elce, Damiana Bergamo, Giulia Avvenuti, Michele Bellesi, Giulio Bernardi
+Location: Italy
+Year: 2020 - Ongoing
+Set ID: 3
+Amendment: 0
+Corresponding author ID: 6
+
+Previous publications:
+N/A
+
+Correspondence:
+For information about the study or to request access to additional data, please contact Giulio Bernardi, IMT School for Advanced Studies Lucca, giulio.bernardi@imtlucca.it
+
+
+---Metadata---
+
+Key ID: 3
+Date entered: 2022-11-03T09:21:31+00:00
+Number of samples: 190
+Number of subjects: 28
+Proportion REM: 33%
+Proportion N1: 4%
+Proportion N2: 62%
+Proportion experience: 62%
+Proportion no-experience: 31%
+Proportion healthy: 100%
+Provoked awakening: No
+Time of awakening: Morning
+Form of response: Free
+Date approved: 2022-11-03T09:22:12+00:00
+
+
+---How to decode data files---
+
+The folder ""Questionnaires"" contains the total scores for Pittsburgh Sleep Quality Index (PSQI), Eppworth Sleepiness Scale (ESS), and Morningness-Eveningness Questionnaire, in CSV files. For PSQI, the 7 classical subcomponents (subjective sleep quality, sleep latency, sleep duration, sleep efficiency, sleep disturbances, use of sleeping medication, and daytime dysfunction) are included in addition to the total score.
+
+
+--Treatment group codes--
+
+N/A
+
+
+---Experimental description---
+
+Important Note: This is an ongoing project (current version: 0.3, June 2022). Data collection is expected to reach an end in 2023. The dataset will be updated with additional subjects as soon as these are collected and processed. Additional data -including data obtained from cognitive tests and questionnaires- will be made available at the end of the project.
+
+The study involves only heatlhy adult subjects. Specifically, the following inclusion criteria are applied: age 18-65, inclusive; relatively regular sleep-wake patterns; Italian only as mother tongue. The following exclusion criteria are also applied: less than 6 or more than 9 hours of sleep per night (on average); neurological, psychiatric or neurodegenerative diseases; major sleep disorders; use of medications that could affect sleep patterns, brain functioning, or behavior; known alterations of dream or imagery generation; alcohol or drug abuse; pregnancy or breastfeeding.
+
+All volunteers undergo an anamnestic interview and are requested to complete several questionnaires including Pittsburgh Sleep Quality Index (PSQI), Epworth Sleepiness Scale (ESS) and Morningness-Eveningness Questionnaire.
+
+Upon recruitment in the study, participants are provided with a DREEM portable EEG system, an actigraphy (MotionWatch8, CamNtech) and a voice recorder. Then, they are instructed to wear the DREEM each night at home for a minimum of 14 days and to record each morning, upon awakening from sleep, ""everything that was going through their mind just before they woke up, everything they remember, every experience or thought they had before awakening."" All participants are instructed to produce a verbal report also in those cases in which they had no experiences (no recall), or they had experiences the details of which they are not able to remember (white dreams).
+
+At the end of the 14-days period, all volunteers participate in an additional experimental visit in the laboratory, during which they complete a battery of behavioral and cognitive tests.
+
+
+--DREAM categorization procedure--
+
+All verbal reports are evaluated and categorized as: ""experience"" [2], if the participant was able to remember at least one content of any kind (perceptual experience, thought, emotion, etc.); ""without recall"" [1], if the participant reported the impression of having had an experience, but no contents were recalled; ""No experience"" [0], if the participant reported no memory or impression of having had an experience before the awakening.
+
+
+---Technical details---
+
+All recordings were performed in Italy, in the participants' home environment, and may contain line noise at 50 Hz. A list of (manually marked) EEG bad channels is included in the last column of the Records.csv file (see Data preprocessing section).
+
+Pulse-Oximeter recordings of subject DL049 - night 4 were lost due to technical issues and were replaced with zero-filled timeseries.
+
+--Data acquisition--
+
+The DREEM device is equipped with five EEG dry electrodes (from which 7 derivations are obtained: Fp1-O1, Fp1-O2, Fp1-F7, F8-F7, F7-O1, F8-O2, Fp1-F8) to record brain activity during sleep, a pulse sensor, for measuring blood oxygen saturation and monitoring heart rate and a 3D accelerometer to measure head position and respiratory rate. EEG signals are recorded with 250 Hz sampling frequency while non-EEG signals are recorded with 50 Hz sampling frequency.
+
+Each EDF file contains the following signals (in this specific order): EEG Fp1-O1, EEG Fp1-O2, EEG Fp1-F7, EEG F8-F7, EEG F7-O1, EEG F8-O2, EEG Fp1-F8, Accelerometer-X, Accelerometer-Y, Accelerometer-Z, Pulse-Oximeter (red), Pulse-Oximeter (infrared).
+
+--Data preprocessing--
+
+From each recording, we extracted 140 seconds of data up to the moment of awakening. In order to allow the inclusion of EEG and non-EEG signals within the same EDF file, non-EEG signals were upsampled to 250 Hz using the MATLAB ""resample"" function. All signals were detrended using robust detrending Cheveigné and Arzounian, NeuroImage, 2018). The raw recordings (including uncut, whole-night data) may be requested by contacting the corresponding author.
+
+The moment of awakening estimated from EEG signals was compared with the one derived from actigraphic data, as calculated by the MotionWare Sleep Analysis software (CamNtech). All cases presenting a mismatch greater than +/- 5 minutes between the two estimates were re-evaluated and subsequently rejected if we could not exclude removal of the DREEM band by the participant before the actual final awakening.
+
+The time of day of each verbal recording was compared with the last awakening's timing as determined based on EEG data inspection. Only verbal reports collected within 1 hour from the moment of awakening were retained in order to exclude delayed reports that may reflect false memories or elaborations/interpretations of the original experience, while also accounting for factors that may limit the possibility to provide an immediate verbal report in the home environment. This time threshold was not applied for ""no experience"" reports. Most reports were provided within 10 minutes from the moment of awakening.
+
+We excluded awakenings corresponding to ""experience"" or ""experience without recall"" reports in which the participant only described (potential) experiences that occurred earlier during the night (e.g., ""I am not sure about my last experience, but earlier tonight I dreamed of [...]).
+
+Sleep scoring was initially performed by the embedded automatic algorithm of the DREEM headband (see Arnal et al., SLEEP, 2020). A human operator re-inspected all recordings and changed the stage attributed to the last sleep epoch in case of clear mistakes of the automated algorithm. Specifically, the following changes were made:
+
+REM --> N2 for DL021 night 15, DL024 night 3, DL027 night 14, DL042 night 9, DL055 nights 6 and 12, DL062 night 6;
+N2 --> REM for DL030 night 11, DL070 night 15;
+N2 --> N1 for DL005 night 9;
+N1 --> N2 for DL017 night 9.
+
+The EEG signals were visually inspected to mark bad channels and relevant artifacts. Of note, data inspection was performed using bandpass filtered signals (0.5-35Hz, Kaiser window FIR filter). Rapid eye movements of REM sleep were not marked unless they were associated with major artifacts (e.g., signal amplitude greater than 300 µV). Only data segments with at least two ""good"" EEG channels were retained. Importantly, the quality of non-EEG signals was not assessed.
+",Italy,2020 - Ongoing,#N/A,"For information about the study or to request access to additional data, please contact Giulio Bernardi, IMT School for Advanced Studies Lucca, giulio.bernardi@imtlucca.it",#N/A,1667467332,Open,FALSE,TRUE
+4,4,0,1675685101,TWC_USA,Two-way communicaton data from USA team,4,#N/A,"Karen R. Konkoly, Remington Mallett, Ken A. Paller",33,19,0.6060606061,0.1818181818,0.1818181818,0,0.8181818182,0.1515151515,1,Some,Mixed,Structured,"Dream EEG and Mentation (DREAM) data set
+========================================
+
+
+Data set information
+--------------------
+
+- Common name: TWC_USA
+- Full name: Two-way communicaton data from USA team
+- Authors: Karen R. Konkoly, Remington Mallett, Ken A. Paller
+- Location: Northwestern University
+- Year: 2021
+- Set ID: 4
+- Amendment: 0
+- Corresponding author ID: 4
+
+Previous publications:  
+Konkoly, K. R., Appel, K., Chabani, E., Mangiaruga, A., Gott, J., Mallett, R., ... & Paller, K. A. (2021). Real-time dialogue between experimenters and dreamers during REM sleep. Current Biology, 31(7), 1417-1427.
+
+Correspondence:  
+karenkonkoly2023@u.northwestern.edu
+
+
+Metadata
+--------
+
+- Key ID: 4
+- Date entered: 2023-02-06T12:05:01+00:00
+- Number of samples: 33
+- Number of subjects: 19
+- Proportion REM: 61%
+- Proportion N1: 18%
+- Proportion N2: 18%
+- Proportion W: 0%
+- Proportion experience: 82%
+- Proportion no-experience: 15%
+- Proportion healthy: 100%
+- Provoked awakening: Some
+- Time of awakening: Mixed
+- Form of response: Structured
+- Date approved: 2023-02-06T12:07:30+00:00
+
+
+How to decode data files
+------------------------
+
+* L-MSTD is an electrode on the left mastoid for if a back-up reference channel was needed. The EMG channel is on the chin, and channels 26 and 27 are back-up EMG electrodes located nearby on the chin. On some recordings EMG-2 is the back-up EMG channel instead, which is also located nearby on the chin.
+* The ""status"" channel was created when converting the data to EDF, and contains information about port codes in the data set. Disregard that the port codes are expressed in microvolts. More information about the meanings of the port codes below.
+* It may be that there is a second of flat EEG at the end of each recording which appears to be an artifact of converting the file type to .EDF and should be disregarded
+* The time of awakening column contains only approximated times based on experimenters' notes and the duration of files
+
+*  There are port codes in the data that have slightly meanings for some different participants (in the ""status"" channel). Here is a guide for their meanings:
+
+  - 32 just indicates that a new script was started (no sounds played)
+  - 64 means the volume was turned down (no sounds played)
+  - 65 means the volume was turned up (no sounds played)
+  - 29 means a TLR auditory cue was presented
+  - 23 means a TLR light cue was presented (but code and light cue are triggered manually, so time-locked analyses is not possible here)
+  - Codes 1-20 correspond to math problems that were presented during sleep, and were changed after case 08. See below for guide
+
+  Cases 01-08
+
+  - 1: 9-7
+  - 2: 3+2
+  - 3: 14-13
+  - 4: 6+1
+  - 5: 19-16
+  - 6: 1+1
+  - 7: 5-2
+  - 8: 1+4
+  - 9: 15-10
+  - 10: 3+3
+  - 11: 8-4
+  - 12: 2+2
+  - 13: 8-0
+  - 14: 4+1
+  - 15: 14-13
+  - 16: 2+4
+  - 17: 16-13
+  - 18: 3+1
+  - 19: 10-8
+  - 20: 1+0
+
+  Cases 09-33
+
+  - 1: 9-7
+  - 2: 3+1
+  - 3: 8-7
+  - 4: 1+2
+  - 5: 9-6
+  - 6: 1+1
+  - 7: 5-2 
+  - 8: 4-1
+  - 9: 8-6
+  - 10: 8-5
+  - 11: 2+2
+  - 12: 2+1
+  - 13: 3+0
+  - 14: 1+0
+  - 15: 7-4
+  - 16: 2+0
+  - 17: 6-3
+  - 18: 3-1
+  - 19: 5-4
+  - 20: 1+0
+
+
+### Treatment group codes ###
+
+N/A
+
+
+Experimental description
+------------------------
+
+Methods:
+
+Twenty-two participants (15 female, age range 18-33 years, M = 21.1 ± 4.3 years) who claimed to remember at least one dream per week were recruited by word of mouth, online forum, and the Northwestern University Psychology Department participant pool. They each participated in one or more nap sessions, which amounted to 27 nap sessions in total.
+
+Procedure:
+
+Participants visited the laboratory at Northwestern University at approximately their normal wake time and received guidance on identifying lucid dreams and instructions for the experiment for about 40 min during preparations for polysomnographic recordings, including EEG, EMG, and EOG, using a Neuroscan SynAmps system. Participants were instructed to signal with a prearranged number of LR eye movements if they became lucid in a dream.
+
+Next, participants practiced making ocular signals and responding to questions using combinations of LR signals. Subsequently, participants completed the Targeted Lucidity Reactivation (TLR) procedure while lying in bed. This procedure was derived from the procedure developed by Carr and collegues. A method of reality checking to induce lucid dreaming was paired with sensory stimulation and accelerated in a single session immediately before sleep, and then cues were presented again during REM sleep. In this procedure, participants were trained to associate a novel cue sound with a lucid state of mind during wake. The sound consisted of three pure-tone beeps increasing in pitch (400, 600, and 800 Hz) at approximately 40-45 dB SPL and lasting approximately 650 ms. For one participant (ppt. 121) the pure-tone beeps had previously been associated with a different task in an unrelated study. Thus, for this participant, a 1000-ms violin sound and low-intensity flashing-red LED lights were used as cues. All participants were informed that this cue would be given during sleep to help promote a lucid dream. Over the next 15 min, the TLR sound was played up to 15 times. The first 4 times, it was followed by verbal guidance to enter a lucid state as follows. ‘‘As you notice the signal, you become lucid. Bring your attention to your thoughts and notice where your mind has wandered.[pause] Now observe your body, sensations, and feelings.[pause] Observe your breathing. [pause] Remain lucid, critically aware, and notice how aspects of this experience are in any way different from your normal waking experience.’’
+
+Participants often fell asleep before all 15 TLR cue presentations were completed. Standard polysomnographic methods were used to determine sleep state. Once participants entered REM sleep, TLR cues were presented again, at about 30-s intervals, as long as REM sleep remained stable. After participants responded to a cue with a lucid eye signal, or after approximately 10 cues were presented without response, we began the math problem portion of the experiment.
+
+We devised the following task to engage auditory perception of math problems, working memory, and the ability to express the correct answer. We used simple addition and subtraction problems that could each be answered by a number between 1 and 4 (LR = 1, LRLR = 2, LRLRLR = 3, LRLRLRLR = 4), or between 1 and 6 for the first 5 participants.
+
+From the above dataset, data was included in DREAM if there was a period of sleep on the EEG followed by a report of a dream (or a lack of dream). The EEG data includes the last period of continuous sleep before the dream report was collected, starting with the first epoch scored as wake, and ending at the last second before clear movement/alpha activity indicating wake. Also, there are a few instances, noted in the “Remarks” column in the “Records” file, where I included epochs that were scored as wake, when the wake seemed due to alpha from participants attempting to answer questions with eye movements (only one of these included wake in the last 20 seconds of the recording, case21_sub111).
+
+EEG sleep data was NOT included if it was not followed by a verbal/written dream report or clear note on the experimenter’s log that there was no recall. Also not included is data where participants completed eye signals or answered questions, but it was not part of the continuous period of sleep before a dream report was given. Also excluded was a case in which a dream report was collected at the end of the nap but the participant had been in and out of sleep beforehand, so it was unclear which sleep period the report referred to.
+
+
+### DREAM categorization procedure ###
+
+Karen Konkoly rated reports according to the DREAM categorization. If the participant reported remembering any sort of mental content from sleep, it was rated “2”. If the participant reported remembering a dream but none of its content, it was rated “1”. If the participant reported not remembering anything, or not falling asleep, it was rated “0”.
+
+
+Technical details
+-----------------
+
+* Data is referenced to the right mastoid, and a grounded to an electrode on the upper forehead.
+
+
+### Data acquisition ###
+
+Data was acquired on the Neuroscan SynAmps system and collected with a 60-Hz notch filter.
+
+
+### Data preprocessing ###
+
+Preprocessing included interpolating bad EEG channels.
+
+The uploaded data has most of the bad channels spherically interpolated using MATLAB EEGlab toolbox. Here are the channels that were interpolated:
+
+    Filename		Interpolated channels
+    case01_sub101	C4
+    case02_sub102	Fz Cz F3 C3 P4
+    case03_sub102	Fz Cz F3 C3 P4
+    case04_sub103	Fz Cz Oz Fp1 F4 C3 C4 P3 P4
+    case05_sub104	F7
+    case06_sub105	Fp1 Fp2 F3 F4
+    case07_sub106	Fp1 Fp2 T4 T6
+    case08_sub106	Fp1 Fp2 T4 T6
+    case09_sub106	Fz Fp1
+    case10_sub106	Fz Fp1
+    case11_sub106	Fp2 F3
+    case12_sub106	Fpz Fp1
+    case13_sub106	Fpz Fp1
+    case14_sub107	Pz Oz C4 P4 T4 T5
+    case15_sub108	Cz Pz Oz C4 P3 P4 O2 T3 T4 T5
+    case16_sub108	Cz Pz Oz C4 P3 P4 O2 T3 T4 T5
+    case17_sub109	Fpz Fz Cz Pz F3 F4 C3 C4 P3 P4 F7 F8 T4 T5
+    case18_sub110	Cz Oz F3 F4 C4 P3 O1 O2 F7 F8 T4 T5 T6
+    case19_sub111	Fp1 Fp2
+    case20_sub111	Fp1 Fp2
+    case21_sub111	Fp1 Fp2
+    case22_sub113	Fpz Fz Cz Pz F3 C3 C4 P3 P4 O1 O2 F7 T4 T5 T6
+    case23_sub114	Fpz Cz F4 C3 O1 F7 T5
+    case24_sub116	Fpz Cz Pz Oz F4 C3 O2 P4 T3 T4 T5 T6
+    case25_sub117	Fz Cz Pz Oz F4 C3 C4 P3 P4 O1 O2 F7 F8 T3 T4 T6
+    case26_sub118	Fz Cz F4
+    case27_sub119	Fpz Fp1 F3 T4
+    case28_sub119	Fpz Fp1 F3 T4
+    case29_sub121	Fp2 C3 P4 Pz O2
+    case30_sub121	Oz F4 C3 C4
+    case31_sub121	Oz F4 C3 C4
+    case32_sub122	C3
+    case33_sub122	C3
+
+Raw data may be requested if there is a relevant justification.
+",Northwestern University,2021,"Konkoly, K. R., Appel, K., Chabani, E., Mangiaruga, A., Gott, J., Mallett, R., ... & Paller, K. A. (2021). Real-time dialogue between experimenters and dreamers during REM sleep. Current Biology, 31(7), 1417-1427.",karenkonkoly2023@u.northwestern.edu,#N/A,1675685250,,FALSE,FALSE
+5,4,1,1675786150,TWC_USA,Two-way communicaton data from USA team,4,https://doi.org/10.6084/m9.figshare.22106123,"Karen R. Konkoly, Remington Mallett, Ken A. Paller",33,19,0.606061,0.181818,0.181818,0.030303,0.818182,0.151515,1,Some,Mixed,Structured,"Dream EEG and Mentation (DREAM) data set
+========================================
+
+
+Data set information
+--------------------
+
+- Common name: TWC_USA
+- Full name: Two-way communicaton data from USA team
+- Authors: Karen R. Konkoly, Remington Mallett, Ken A. Paller
+- Location: Northwestern University
+- Year: 2021
+- Set ID: 4
+- Amendment: 1
+- Corresponding author ID: 4
+
+Previous publications:  
+Konkoly, K. R., Appel, K., Chabani, E., Mangiaruga, A., Gott, J., Mallett, R., ... & Paller, K. A. (2021). Real-time dialogue between experimenters and dreamers during REM sleep. Current Biology, 31(7), 1417-1427.
+
+Correspondence:  
+karenkonkoly2023@u.northwestern.edu
+
+
+Metadata
+--------
+
+- Key ID: 5
+- Date entered: 2023-02-08T03:09:10+00:00
+- Number of samples: 33
+- Number of subjects: 19
+- Proportion REM: 61%
+- Proportion N1: 18%
+- Proportion N2: 18%
+- Proportion W: 0%
+- Proportion experience: 82%
+- Proportion no-experience: 15%
+- Proportion healthy: 100%
+- Provoked awakening: Some
+- Time of awakening: Mixed
+- Form of response: Structured
+- Date approved: 2023-02-09T05:50:12+00:00
+
+
+How to decode data files
+------------------------
+
+* L-MSTD is an electrode on the left mastoid for if a back-up reference channel was needed. The EMG channel is on the chin, and channels 26 and 27 are back-up EMG electrodes located nearby on the chin. On some recordings EMG-2 is the back-up EMG channel instead, which is also located nearby on the chin.
+* The ""status"" channel was created when converting the data to EDF, and contains information about port codes in the data set. Disregard that the port codes are expressed in microvolts. More information about the meanings of the port codes below.
+* It may be that there is a second of flat EEG at the end of each recording which appears to be an artifact of converting the file type to .EDF and should be disregarded
+* The time of awakening column contains only approximated times based on experimenters' notes and the duration of files
+
+*  There are port codes in the data that have slightly meanings for some different participants (in the ""status"" channel). Here is a guide for their meanings:
+
+  - 32 just indicates that a new script was started (no sounds played)
+  - 64 means the volume was turned down (no sounds played)
+  - 65 means the volume was turned up (no sounds played)
+  - 29 means a TLR auditory cue was presented
+  - 23 means a TLR light cue was presented (but code and light cue are triggered manually, so time-locked analyses is not possible here)
+  - Codes 1-20 correspond to math problems that were presented during sleep, and were changed after case 08. See below for guide
+
+  Cases 01-08
+
+  - 1: 9-7
+  - 2: 3+2
+  - 3: 14-13
+  - 4: 6+1
+  - 5: 19-16
+  - 6: 1+1
+  - 7: 5-2
+  - 8: 1+4
+  - 9: 15-10
+  - 10: 3+3
+  - 11: 8-4
+  - 12: 2+2
+  - 13: 8-0
+  - 14: 4+1
+  - 15: 14-13
+  - 16: 2+4
+  - 17: 16-13
+  - 18: 3+1
+  - 19: 10-8
+  - 20: 1+0
+
+  Cases 09-33
+
+  - 1: 9-7
+  - 2: 3+1
+  - 3: 8-7
+  - 4: 1+2
+  - 5: 9-6
+  - 6: 1+1
+  - 7: 5-2 
+  - 8: 4-1
+  - 9: 8-6
+  - 10: 8-5
+  - 11: 2+2
+  - 12: 2+1
+  - 13: 3+0
+  - 14: 1+0
+  - 15: 7-4
+  - 16: 2+0
+  - 17: 6-3
+  - 18: 3-1
+  - 19: 5-4
+  - 20: 1+0
+
+
+### Treatment group codes ###
+
+N/A
+
+
+Experimental description
+------------------------
+
+Methods:
+
+Twenty-two participants (15 female, age range 18-33 years, M = 21.1 ± 4.3 years) who claimed to remember at least one dream per week were recruited by word of mouth, online forum, and the Northwestern University Psychology Department participant pool. They each participated in one or more nap sessions, which amounted to 27 nap sessions in total.
+
+Procedure:
+
+Participants visited the laboratory at Northwestern University at approximately their normal wake time and received guidance on identifying lucid dreams and instructions for the experiment for about 40 min during preparations for polysomnographic recordings, including EEG, EMG, and EOG, using a Neuroscan SynAmps system. Participants were instructed to signal with a prearranged number of LR eye movements if they became lucid in a dream.
+
+Next, participants practiced making ocular signals and responding to questions using combinations of LR signals. Subsequently, participants completed the Targeted Lucidity Reactivation (TLR) procedure while lying in bed. This procedure was derived from the procedure developed by Carr and collegues. A method of reality checking to induce lucid dreaming was paired with sensory stimulation and accelerated in a single session immediately before sleep, and then cues were presented again during REM sleep. In this procedure, participants were trained to associate a novel cue sound with a lucid state of mind during wake. The sound consisted of three pure-tone beeps increasing in pitch (400, 600, and 800 Hz) at approximately 40-45 dB SPL and lasting approximately 650 ms. For one participant (ppt. 121) the pure-tone beeps had previously been associated with a different task in an unrelated study. Thus, for this participant, a 1000-ms violin sound and low-intensity flashing-red LED lights were used as cues. All participants were informed that this cue would be given during sleep to help promote a lucid dream. Over the next 15 min, the TLR sound was played up to 15 times. The first 4 times, it was followed by verbal guidance to enter a lucid state as follows. ‘‘As you notice the signal, you become lucid. Bring your attention to your thoughts and notice where your mind has wandered.[pause] Now observe your body, sensations, and feelings.[pause] Observe your breathing. [pause] Remain lucid, critically aware, and notice how aspects of this experience are in any way different from your normal waking experience.’’
+
+Participants often fell asleep before all 15 TLR cue presentations were completed. Standard polysomnographic methods were used to determine sleep state. Once participants entered REM sleep, TLR cues were presented again, at about 30-s intervals, as long as REM sleep remained stable. After participants responded to a cue with a lucid eye signal, or after approximately 10 cues were presented without response, we began the math problem portion of the experiment.
+
+We devised the following task to engage auditory perception of math problems, working memory, and the ability to express the correct answer. We used simple addition and subtraction problems that could each be answered by a number between 1 and 4 (LR = 1, LRLR = 2, LRLRLR = 3, LRLRLRLR = 4), or between 1 and 6 for the first 5 participants.
+
+From the above dataset, data was included in DREAM if there was a period of sleep on the EEG followed by a report of a dream (or a lack of dream). The EEG data includes the last period of continuous sleep before the dream report was collected, starting with the first epoch scored as wake, and ending at the last second before clear movement/alpha activity indicating wake. Also, there are a few instances, noted in the “Remarks” column in the “Records” file, where I included epochs that were scored as wake, when the wake seemed due to alpha from participants attempting to answer questions with eye movements (only one of these included wake in the last 20 seconds of the recording, case21_sub111).
+
+EEG sleep data was NOT included if it was not followed by a verbal/written dream report or clear note on the experimenter’s log that there was no recall. Also not included is data where participants completed eye signals or answered questions, but it was not part of the continuous period of sleep before a dream report was given. Also excluded was a case in which a dream report was collected at the end of the nap but the participant had been in and out of sleep beforehand, so it was unclear which sleep period the report referred to.
+
+
+### DREAM categorization procedure ###
+
+Karen Konkoly rated reports according to the DREAM categorization. If the participant reported remembering any sort of mental content from sleep, it was rated “2”. If the participant reported remembering a dream but none of its content, it was rated “1”. If the participant reported not remembering anything, or not falling asleep, it was rated “0”.
+
+
+Technical details
+-----------------
+
+* Data is referenced to the right mastoid, and a grounded to an electrode on the upper forehead.
+
+
+### Data acquisition ###
+
+Data was acquired on the Neuroscan SynAmps system and collected with a 60-Hz notch filter.
+
+
+### Data preprocessing ###
+
+Preprocessing included interpolating bad EEG channels.
+
+The uploaded data has most of the bad channels spherically interpolated using MATLAB EEGlab toolbox. Here are the channels that were interpolated:
+
+    Filename		Interpolated channels
+    case01_sub101	C4
+    case02_sub102	Fz Cz F3 C3 P4
+    case03_sub102	Fz Cz F3 C3 P4
+    case04_sub103	Fz Cz Oz Fp1 F4 C3 C4 P3 P4
+    case05_sub104	F7
+    case06_sub105	Fp1 Fp2 F3 F4
+    case07_sub106	Fp1 Fp2 T4 T6
+    case08_sub106	Fp1 Fp2 T4 T6
+    case09_sub106	Fz Fp1
+    case10_sub106	Fz Fp1
+    case11_sub106	Fp2 F3
+    case12_sub106	Fpz Fp1
+    case13_sub106	Fpz Fp1
+    case14_sub107	Pz Oz C4 P4 T4 T5
+    case15_sub108	Cz Pz Oz C4 P3 P4 O2 T3 T4 T5
+    case16_sub108	Cz Pz Oz C4 P3 P4 O2 T3 T4 T5
+    case17_sub109	Fpz Fz Cz Pz F3 F4 C3 C4 P3 P4 F7 F8 T4 T5
+    case18_sub110	Cz Oz F3 F4 C4 P3 O1 O2 F7 F8 T4 T5 T6
+    case19_sub111	Fp1 Fp2
+    case20_sub111	Fp1 Fp2
+    case21_sub111	Fp1 Fp2
+    case22_sub113	Fpz Fz Cz Pz F3 C3 C4 P3 P4 O1 O2 F7 T4 T5 T6
+    case23_sub114	Fpz Cz F4 C3 O1 F7 T5
+    case24_sub116	Fpz Cz Pz Oz F4 C3 O2 P4 T3 T4 T5 T6
+    case25_sub117	Fz Cz Pz Oz F4 C3 C4 P3 P4 O1 O2 F7 F8 T3 T4 T6
+    case26_sub118	Fz Cz F4
+    case27_sub119	Fpz Fp1 F3 T4
+    case28_sub119	Fpz Fp1 F3 T4
+    case29_sub121	Fp2 C3 P4 Pz O2
+    case30_sub121	Oz F4 C3 C4
+    case31_sub121	Oz F4 C3 C4
+    case32_sub122	C3
+    case33_sub122	C3
+
+Raw data may be requested if there is a relevant justification.
+",Northwestern University,2021,"Konkoly, K. R., Appel, K., Chabani, E., Mangiaruga, A., Gott, J., Mallett, R., ... & Paller, K. A. (2021). Real-time dialogue between experimenters and dreamers during REM sleep. Current Biology, 31(7), 1417-1427.",karenkonkoly2023@u.northwestern.edu,#N/A,1675786150,Open,FALSE,TRUE
+6,5,0,1676983734,Dream Database from Donders,#N/A,12,https://doi.org/10.6084/m9.figshare.21388722,"Cagatay Demirel, Jarrod Gott, Martin Dresler",7,5,0.142857,0.142857,0.428571,0.142857,1,0,1,Yes,Morning,Structured,"Dream EEG and Mentation (DREAM) data set
+========================================
+
+
+Data set information
+--------------------
+
+- Common name: Dream Database from Donders
+- Full name: N/A
+- Authors: Cagatay Demirel, Jarrod Gott, Martin Dresler
+- Location: Donders Centre for Cognitive Neuroimaging
+- Year: 2019 - 2021
+- Set ID: 5
+- Amendment: 0
+- Corresponding author ID: 12
+
+Previous publications:  
+Konkoly, K. R., Appel, K., Chabani, E., Mangiaruga, A., Gott, J., Mallett, R., ... & Paller, K. A. (2021). Real-time dialogue between experimenters and dreamers during REM sleep. Current Biology, 31(7), 1417-1427.
+
+Correspondence:  
+cagatay.demirel@donders.ru.nl, jarrod.gott@donders.ru.nl
+
+
+Metadata
+--------
+
+- Key ID: 6
+- Date entered: 2023-02-21T12:48:54+00:00
+- Number of samples: 7
+- Number of subjects: 6
+- Proportion REM: 14%
+- Proportion N1: 14%
+- Proportion N2: 43%
+- Proportion W: 0%
+- Proportion experience: 100%
+- Proportion no-experience: 0%
+- Proportion healthy: 100%
+- Provoked awakening: Yes
+- Time of awakening: Morning
+- Form of response: Structured
+- Date approved: 2023-02-21T12:47:51+00:00
+
+
+How to decode data files
+------------------------
+
+* EEG files: All the EEG data are already transformed into "".edf"" format from original Brainvision files.
+* Dream reports: The format of the dream reports are Microsoft word files (.docx format). Originally, we captured .wav files as dream reports and combination of AI-based speech to text and fine polishing the transcribed texts followed to extract clear dream reports.
+
+
+### Treatment group codes ###
+
+Codes correspond to the study numbers described below.
+
+
+Experimental description
+------------------------
+
+The database consists of data from one project and some (un)defined pilots:
+
+* Real-time dialogue during lucid dreaming (study no: 0) : Subjects communicated with the researchers while lucid dreaming, and answered very basic calculations with eye signals (e.g ""what is 8 minus 6? --> ""answer is 2 by moving ocular muscles on both sides to count the amount of eye signalling).
+  - Data/PSG/s_04/c_04/morningnap_singlepart.edf
+  - Data/PSG/s_04/c_05/morningnap_singlepart.edf
+  
+* Lucid Dreaming BCI pilots (study no: 1): The aim is to provide dreamed hand-clenching while being lucid. Between every single hand clench, subjects are supposed to provide LRLR (eye signals) to separate the events.
+  - Data/PSG/s_00/c_00/morningnap_singlepart.edf
+  - Data/PSG/s_01/c_01/morningnap_singlepart.edf
+
+  - Data/PSG/s_02/c_02/morningnap_part1.edf
+  - Data/PSG/s_02/c_02/morningnap_part2.edf
+  
+* Other pilots: No experimental description, just some high-density EEG data with the dream content (study no: 2).
+  - Data/PSG/s_03/c_03/morningnap_singlepart.edf
+
+Note: The majority of the ""dream recall"" moments, clear phasic REM stages, and lucid dreaming (for some individuals) happened around midday. All of the subjects had arrived at the EEG lab with high REM pressure (around 7:00 a.m.) (between 11:00 - 12:00). Therefore, it is more possible that people will accept our dream segments as ""day"" awakenings. 
+
+
+### DREAM categorization procedure ###
+
+N/A
+
+
+Technical details
+-----------------
+
+* s_00/c_00/morningnap_singlepart.edf: 
+  - EMG_wrist_left is problematic and should be discarded.
+* s_01/c_01/morningnap_singlepart.edf:
+  - F7 has a constant line noise and probably non-stationary sweat artefact
+  - C3 becomes artefactual in the last period of the data
+  - C1, P1, AF4 line artefacts
+  - FT8 line artefacts with some movement artefacts (probably)
+* s_02/c_02/morningnap_part1.edf:
+  - F3 & FC1 & FC2 & C1 & FC4 almost constantly artefactual, needs to be interpolated.
+  - CP4 has random disconnections and some bursts, need to be interpolated.
+* s_02/c_02/morningnap_part2.edf: 
+  - CP1, CP6, FC2, C1, C6 are constantly artefactual, needs to be interpolated.
+  - F2 & C2 are severly corrupted.
+  - F3 could have constant line-noise.
+* s_03/c_03/morningnap_singlepart.edf:
+  - O2 seems to be almost detached from the skin, needs to be interpolated.
+  - P7 is getting contaminated by unknown line-noise with combination of burst artefacts at 0:36:12 (the distance from the beginning).
+* s_04/c_04/morningnap_singlepart.edf:
+  - Drop ['IIz', 'SI5', 'SI6', 'SI3', 'SI4']
+  - EMG 3 is unusable
+* s_04/c_05/morningnap_singlepart.edf:
+  - Again drop ['IIz', 'SI5', 'SI6', 'SI3', 'SI4']
+  - CPP1H needs to be interpolated.
+
+
+### Data acquisition ###
+
+* Easycap 128-channels EEG device (10/05 EEG layout) with passive electrodes including EMG, EOG and ECG.
+* actiCAP 64-channels EEG device (10/10 EEG layout):
+  - For some data, some of the EEG channels are transformed into the EOG and skin EMG with adhesive holders.
+  - ExG box with additional passive + bipolar EOG and EMGs are used.
+
+
+### Data preprocessing ###
+
+EEG data (.edf) are not preprocessed and uploaded in ""raw"" format yet since the whole data is curated from Brainvision files, the 3D electrode layout information (10/10) is already embedded to .edf files
+and loaded data into the FieldTrip or MNE platforms will contain layout information by default. You don't need to find an external EEG layout to integrate your ""data structure"" in MATLAB or Python platforms.
+
+### Recommended data preprocessing for the whole data ###
+
+There could be many different combination of preprocessing pipeline regarding to aimed analysis yet I am sharing the most possible broaded preprocessing for our own data.
+
+1) Noisy-channel removal
+2) Channel type assignment
+3) EEG layout loading : 10/05 or 10/10
+4) EEG noisy channel interpolation
+5) Notch filter at 50 Hz
+6) 0.1 - 49 Hz band-pass filter (in case above 50 Hz are not interested).
+7) Signal-space projection (SSP): https://mne.tools/0.16/manual/preprocessing/ssp.html
+8) Resample at 100 Hz
+
+*Note: The whole data was recorded in the Netherlands and 50 Hz line-noise recommended to remove via a notch filter at 50 Hz.
+",Donders Centre for Cognitive Neuroimaging,2019 - 2021,"Konkoly, K. R., Appel, K., Chabani, E., Mangiaruga, A., Gott, J., Mallett, R., ... & Paller, K. A. (2021). Real-time dialogue between experimenters and dreamers during REM sleep. Current Biology, 31(7), 1417-1427.","cagatay.demirel@donders.ru.nl, jarrod.gott@donders.ru.nl",#N/A,1676983671,Open,FALSE,TRUE
+7,6,0,1677579505,REM_Turku,REM_Turku,7,https://doi.org/10.6084/m9.figshare.23274596.v2,"Pilleriin Sikka, Antti Revonsuo, Valdas Noreika, Katja Valli",134,18,1,0,0,0,0.91791,0.0223881,1,Yes,Night,Free,"Dream EEG and Mentation (DREAM) dataset
+=======================================
+
+
+Dataset information
+-------------------
+
+- Common name: REM_Turku
+- Full name: REM_Turku
+- Authors: Pilleriin Sikka, Antti Revonsuo, Valdas Noreika, Katja Valli
+- Location: Turku, Finland
+- Year: N/A
+- Set ID: 6
+- Amendment: 0
+- Corresponding author ID: 7
+
+Previous publications:  
+- Sikka, P., Revonsuo, A., Noreika, V., & Valli, K. (2019). EEG frontal alpha asymmetry and dream affect: Alpha oscillations over the right frontal cortex during REM sleep and presleep wakefulness predict anger in REM sleep dreams. Journal of Neuroscience, 39(24): 4775-4784. https://doi.org/10.1523/JNEUROSCI.2884-18.2019
+
+- Sikka, P., Revonsuo, A., Sandman, N., Tuominen, J., & Valli, K. (2018). Dream emotions: A comparison of home dream reports with laboratory early and late REM dream reports. Journal of Sleep Research, 27(2), 206-214. doi: 10.1111/jsr.12555
+
+- Sikka, P., Valli, K., Virta, T., & Revonsuo, A. (2014). I know how you felt last night, or do I? Self- and external ratings of emotions in REM sleep dreams. Consciousness and Cognition, 25, 51–66. http://dx.doi.org/10.1016/j.concog.2014.01.011
+
+Correspondence:  
+Pilleriin Sikka (pilsik@utu.fi, sikka@stanford.edu, pilleriin.sikka@his.se), Katja Valli (katval@utu.fi)
+
+
+Metadata
+--------
+
+- Key ID: 7
+- Date entered: 2023-02-28T10:18:25+00:00
+- Number of samples: 134
+- Number of subjects: 18
+- Proportion REM: 100%
+- Proportion N1: 0%
+- Proportion N2: 0%
+- Proportion W: 0%
+- Proportion experience: 92%
+- Proportion no-experience: 2%
+- Proportion healthy: 100%
+- Provoked awakening: Yes
+- Time of awakening: Night
+- Form of response: Free
+- Date approved: 2023-02-28T10:19:59+00:00
+
+
+How to decode data files
+------------------------
+
+The PSG files are raw (i.e., not preprocessed) EEG data files and include the last 2 minutes of preawakening EEG from each REM episode obtained using a serial awakening paradigm in the sleep laboratory.
+Data set includes EEG data from 134 awakenings of 18 participants.
+
+Files are organized according to the format: /Data/PSG/casexx_syy, where  
+xx refers to Case ID  
+yy refers to Subject ID
+
+In the ""Records.csv"" file, the following information is presented:
+
+- Filename: in the format casexx_syy.edf
+- Case ID: unique identifier of sample
+- Subject ID: unique identifier of subject
+- Experience: 2 = dream experience; 1 = without recall (""white dream""); 0 = no dream experience
+- Treatment group: N/A
+- Duration: duration of the EEG data file in seconds
+- EEG sample rate: the sampling rate of the EEG in Hertz
+- Number of EEG channels: the number of EEG signals in this sample
+- Last sleep stage: the scored sleep stage of the final epoch in the sample (1 = N1; 2 = N2; 3 = N3/NREM3/NREM4; 5=REM)
+- Has EOG: whether EOG is included in the sample (1 = yes; 0 = no)
+- Has EMG: whether EMG is included in the sample (1 = yes; 0 = no)
+- Has ECG: whether ECG is included in the sample (1 = yes; 0 = no)
+- Proportion artifacts: N/A
+- Time of awakening: time when this sample’s PSG ends
+- Subject age: age of the subject
+- Subject sex: sex of the subject (key: 0 = male, 1 = female; 2 = other)
+- Subject healthy: whether subject is from a relatively healthy population (key: 0 = no; 1 = yes)
+- Has more data: whether this sample has more data in the form of files under the /Data directory other than the /Data/PSG directory (key: 0=no, 1=yes)
+- Remarks: The first number refers to the number of experimental night in the sleep lab for the subject, the second number refer to the number of awakening during that night (e.g., 1_3 refers to Night 1, Awakening 3).
+- Remarks can also include other important information regarding this subject or data file.
+
+In the ""Ratings.csv"" file, the following information is presented:
+
+- Filename: in the format (/Data/PSG/)casexx_syy
+- DreamReport_Wordcount: total number of dream-related words minus utterances, fillers, repetitions, corrections, waking commentaries
+- ER = external ratings of emotions expressed in dream reports, conducted by two blind judges using the Finnish version of the modified Differential Emotions Scale (mDES; Fredrickson, 2013); the number refers to the frequency of occurrence of the emotion item in the dream report
+- SR = self-ratings of emotions experienced in the preceding dream using the mDES, conducted by participants themselves upon awakening and after having reported the dream; each item was rated on the scale from 0 = not at all to 4 = extremely much
+- PA = positive emotion/affect item of mDES
+- NA = negative emotion/affect item of mDES
+
+The following are the 10 positive and 10 negative emotion/affect items of the mDES scale:
+
+* PA1 - Amused_Funloving_Giggly
+* PA2 - Awe_Wonder_Amazement
+* PA3 - Grateful_Appreciative_Thankful
+* PA4 - Hopeful_Optimistic_Encouraged
+* PA5 - Inspired_Uplifted_Elevated
+* PA6 - Interested_Alert_Curious
+* PA7 - Joyful_Glad_Happy
+* PA8 - Love_Closeness_Trust
+* PA9 - Proud_Confident_Selfassured
+* PA10 - Serene_Content_Peaceful
+* NA1 - Angry_Irritated_Annoyed
+* NA2 - Ashamed_Humiliated_Disgraced
+* NA3 - Contemptuous_Scornful_DIsdainful
+* NA4 - Disgust_Distaste_Revulsion
+* NA5 - Embarrassed_Selfconscious_Blushing
+* NA6 - Guilty_Repetant_Blameworthy
+* NA7 - Hate_Distrust_Suspicion
+* NA8 - Sad_Downhearted_Unhappy
+* NA9 - Scared_Fearful_Afraid
+* NA10 - Stressed_Nervous_Overwhelmed
+* ER_InferredExpressed = whether the emotion was directly expressed in the dream report or could be inferred from the behaviour of the dream self (key: 1 = expressed, 2 = inferred, 3 = both)
+* Remarks: any remarks regarding this data file
+
+
+### Treatment group codes ###
+
+N/A
+
+
+Experimental description
+------------------------
+
+A full description of the materials and methods can be found in the following article:  
+Sikka, P., Revonsuo, A., Noreika, V., & Valli, K. (2019). EEG frontal alpha asymmetry and dream affect: Alpha oscillations over the right frontal cortex during REM sleep and presleep wakefulness predict anger in REM sleep dreams. Journal of Neuroscience, 39(24): 4775-4784. https://doi.org/10.1523/JNEUROSCI.2884-18.2019
+
+Participants:  
+Healthy, not using medication, right-handed, native Finnish speakers, with good sleep quality (score ≤ 5 on the Pittsburgh Sleep Quality Index; Buysse et al., 1989).
+
+Experimental design and procedure:  
+For a Figure displaying the experimental procedure, see Sikka et al. (2019, p. 4777).
+
+Participants spent 2 nights (separated by a week) in the sleep laboratory. In the evening, participants arrived in the laboratory 2h before their usual bedtime.  
+First, participants were instructed about the procedure of the study and EEG electrodes attached to their scalp.  
+Next, participants' waking state resting EEG was recorded (8 x 1 min; 10:30pm-12:00am) and they rated their current waking affective state using the Finnish version of the modified Differential Emotions Scale (fmDES, Fredickrson, 2013).
+
+Participants were then allowed to fall asleep. Sleep stages were monitored and scored visually (Rechtschaffen and Kales, 1968; Iber et al., 2007). Every time REM sleep had lasted continuously for 5 min, and was in a phasic stage, a tone signal was used to awaken the participants. Upon awakening, participants provided an oral dream report: first, they reported the last image they had in mind just before awakening, followed by a detailed report of the whole dream. Next, participants rated their affective experiences in the preceding dream by filling in the fmDES electronically using a mouse and a computer screen above the bed. In case the participants reported ‘‘no dreams’’, researchers asked whether they had not had a dream or they felt like they had had a dream but could not recall any specific content (i.e., ‘white dream’). In these two cases fmDES was not filled in. Participants were then allowed to continue their sleep.
+
+This procedure was repeated throughout the night until the final morning awakening (scheduled between 5:30 A.M. to 8:30 A.M.).  
+Upon final awakening, and after having reported and rated the last dream, participants were asked to lie in bed but stay awake. Similar to the evening, waking state resting (morning baseline) EEG was then recorded for 8 min, followed by participants’ ratings of their current waking state affect using the fmDES.
+
+
+### DREAM categorization procedure ###
+
+Dream experiences = participants remembered having a dream and were able to report at least some of its content.
+
+Without recall (""white dream"" = participants felt like they had had a dream but could not recall any specific content.
+
+No recall = participants reported not having had any dream experiences.
+
+
+Technical details
+-----------------
+
+N/A
+
+
+### Data acquisition ###
+
+EEG was recorded using 24 single Ag/AgCl electrodes (placed according to standard 10/10 system).
+
+Additionally, 4 EOG electrodes were used to record eye movements and an EMG electrode (placed on the chin) was used to record muscle activity.
+
+All electrodes (except the bipolar EOG and EMG electrodes) were references to the right mastoid. The ground electrode was placed on the forehead.
+
+EEG signal was amplified (SynAmps model 5083), notch-filtered at 50 Hz, digitized at 500 Hz, and recorded with Neuroscan equipment and software.
+
+All impedances were kept <5 kΩ.
+
+
+### Data preprocessing ###
+
+Data has not been preprocessed.
+","Turku, Finland",#N/A,"- Sikka, P., Revonsuo, A., Noreika, V., & Valli, K. (2019). EEG frontal alpha asymmetry and dream affect: Alpha oscillations over the right frontal cortex during REM sleep and presleep wakefulness predict anger in REM sleep dreams. Journal of Neuroscience, 39(24): 4775-4784. https://doi.org/10.1523/JNEUROSCI.2884-18.2019
+
+- Sikka, P., Revonsuo, A., Sandman, N., Tuominen, J., & Valli, K. (2018). Dream emotions: A comparison of home dream reports with laboratory early and late REM dream reports. Journal of Sleep Research, 27(2), 206-214. doi: 10.1111/jsr.12555
+
+- Sikka, P., Valli, K., Virta, T., & Revonsuo, A. (2014). I know how you felt last night, or do I? Self- and external ratings of emotions in REM sleep dreams. Consciousness and Cognition, 25, 51–66. http://dx.doi.org/10.1016/j.concog.2014.01.011","Pilleriin Sikka (pilsik@utu.fi), Katja Valli (katval@utu.fi)",#N/A,1677579599,Open,FALSE,TRUE
+8,7,0,1677646638,ChildrenDreaming,DeGennaro_Children&Adolescents,8,https://doi.org/10.6084/m9.figshare.22220701,"Serena Scarpelli, Luigi De Gennaro",30,30,0.166667,0,0.8,0,0.433333,0.566667,0.6,Yes,Morning,Categorical,"Dream EEG and Mentation (DREAM) dataset
+=======================================
+
+
+Dataset information
+-------------------
+
+- Common name: ChildrenDreaming
+- Full name: DeGennaro_Children&Adolescents
+- Authors: Serena Scarpelli, Luigi De Gennaro
+- Location: N/A
+- Year: N/A
+- Set ID: 7
+- Amendment: 0
+- Corresponding author ID: 8
+
+Previous publications:  
+Some recordings from this dataset were used in the study: Reda, F., Gorgoni, M., D'Atri, A., Scarpelli, S., Carpi, M., Di Cola, E., ... & De Gennaro, L. (2021). Sleep-Related Declarative Memory Consolidation in Children and Adolescents with Developmental Dyslexia. Brain Sciences, 11(1), 73.
+
+Correspondence:  
+Luigi De Gennaro  
+luigi.degennaro@uniroma1.it
+
+
+Metadata
+--------
+
+- Key ID: 8
+- Date entered: 2023-03-01T04:57:18+00:00
+- Number of samples: 30
+- Number of subjects: 30
+- Proportion REM: 17%
+- Proportion N1: 0%
+- Proportion N2: 80%
+- Proportion W: 0%
+- Proportion experience: 43%
+- Proportion no-experience: 57%
+- Proportion healthy: 60%
+- Provoked awakening: Yes
+- Time of awakening: Morning
+- Form of response: Categorical
+- Date approved: 2023-03-01T05:00:24+00:00
+
+
+How to decode data files
+------------------------
+
+N/A
+
+
+### Treatment group codes ###
+
+DS= Dyslexic Subjects
+
+
+Experimental description
+------------------------
+
+30 children and adolescents (9–14 years old) were involved in the study.
+
+Participants with developmental dyslexia were recruited at the Child and Adolescents Neuropsychiatric Unit of the Bambino Gesù Children’s Hospital, while control subjects were recruited through advertisements in the community.
+
+Before entering the study, all participants were assessed for intelligence, reading abilities, psychiatric and sleep comorbidities by means of a screening test battery.
+
+The absence of intellectual disabilities was assessed through Raven’s Matrices (colored or standard based on age) or Wechsler Intelligence Scale for Children Fourth Edition (WISC-IV): none of the participants had an IQ score below 85. For reading abilities, the text reading test (MT-2) and the word and non-word reading tests (DDE-2) were administered. In order to exclude the presence of psychiatric comorbidities and sleep problems, the Child Behavior Checklist (CBCL) and the Sleep Disturbance Scale for Children were filled out by parents. All participants were free of any medication for the week preceding the experimental night.
+
+Participants and their parents were informed about the procedure and the aims of the study and gave their written informed consent.
+
+Participants who fulfilled the inclusion/exclusion criteria required for participation in the study underwent a complete PSG recording of a nocturnal sleep, performed at the Sleep Psychophysiology Laboratory of the Department of Psychology (Sapienza, University of Rome).
+
+During the week preceding the experimental night, participants were asked to fill out sleep diaries every morning within 15 min after awakening in order to monitor the regularity of the sleep-wake cycle. They were asked to avoid naps in the day of the experimental night. Each participant took part in the experimental session alone and each on a different day. Participants arrived at the sleep lab between 17:00 and 19:00. After the application of the PSG, participants had a light dinner. Sleep PSG recordings started between 21:00 and 23:00, according to the habitual bedtime of the participants, and finished after 10 h of sleep or with the spontaneous awakening of the subjects. In the morning, the subjects filled out a sleep and dream diary. Data recordings were conducted on weekends or free-school days. Environmental influences that could disturb sleep (light, noise, temperature) were controlled.
+
+Language: Italian
+
+
+### DREAM categorization procedure ###
+
+2 = Experience or Experience without recall (in the dream diary subjects report the feeling of having had a dream but he/she does not remember the content), and 0 = No dream (in the dream diary subject report no recall or ""I don't know"" response without any clear feeling of having had a dream)
+
+
+Technical details
+-----------------
+
+N/A
+
+
+### Data acquisition ###
+
+The PSG recordings were acquired in a sound-proof, temperature-controlled room, with a Brain Amp MR plus system (Brain Products GmbH, Gilching, Munich, Germany).
+
+The 28 unipolar EEG derivations of the international 10-10 system (C3, C4, Cp1, Cp2, Cp5, Cp6, Cz, F3, F4, F7, F8, Fc1, Fc2, Fc5, Fc6, Fp1, Fp2, Fz, O1, O2, Oz, P3, P4, P7, P8, Pz, T7, T8) were recorded from scalp electrodes (Ag/AgCl). EEG signals were acquired with a sampling rate of 250 Hz and bandpass filtered at 30 Hz. Electrode impedance was kept below 5 kΩ. The electrooculogram (EOG) electrodes were placed about 1 cm from the lateral canthi up for the right eye and down for the left eye and were recorded with a time constant of 1 s. Submental electromyogram (EMG) was recorded with a time constant of 0.03 s. All channels were referenced to the average of the two mastoids (A1 and A2).
+
+
+### Data preprocessing ###
+
+N/A
+",#N/A,#N/A,"Some recordings from this dataset were used in the study: Reda, F., Gorgoni, M., D'Atri, A., Scarpelli, S., Carpi, M., Di Cola, E., ... & De Gennaro, L. (2021). Sleep-Related Declarative Memory Consolidation in Children and Adolescents with Developmental Dyslexia. Brain Sciences, 11(1), 73.","Luigi De Gennaro  
+luigi.degennaro@uniroma1.it",#N/A,1677646824,Open,FALSE,TRUE
+9,8,0,1677674520,SCANDataset,SCANDataset,5,#N/A,"Jean-Baptiste Eichenlaub, Elaine van Rijn, Mark Blagrove",85,18,0.541176,0,0,0,0.741176,0.176471,1,Yes,Night,Free,"Dream EEG and Mentation (DREAM) dataset
+=======================================
+
+
+Dataset information
+-------------------
+
+- Common name: SCANDataset
+- Full name: SCANDataset
+- Authors: Jean-Baptiste Eichenlaub, Elaine van Rijn, Mark Blagrove
+- Location: Swansea University Sleep Laboratory
+- Year: 2012-13
+- Set ID: 8
+- Amendment: 0
+- Corresponding author ID: 5
+
+Previous publications:  
+Eichenlaub J-B, van Rijn E, Gaskell MG, Lewis PA, Maby E, Malinowski JE, Walker MP, Boy F, Blagrove M (2018) Incorporation of recent waking-life experiences in dreams correlates with frontal theta activity in REM sleep. Soc Cogn Affect Neurosci 13:637–647.
+
+Correspondence:  
+jean-baptiste.eichenlaub@univ-smb.fr and M.T.Blagrove@swansea.ac.uk
+
+
+Metadata
+--------
+
+- Key ID: 9
+- Date entered: 2023-03-01T12:42:00+00:00
+- Number of samples: 85
+- Number of subjects: 18
+- Proportion REM: 54%
+- Proportion N1: 0%
+- Proportion N2: 0%
+- Proportion W: 0%
+- Proportion experience: 74%
+- Proportion no-experience: 18%
+- Proportion healthy: 100%
+- Provoked awakening: Yes
+- Time of awakening: Night
+- Form of response: Free
+- Date approved: 2023-03-01T12:43:05+00:00
+
+
+How to decode data files
+------------------------
+
+Each awakening (or trial) is named as following ""..\Data\PSG\Sxx_Tyy.edf"" where:
+- xx is subject ID
+- yy is Case ID
+
+
+### Treatment group codes ###
+
+N/A
+
+
+Experimental description
+------------------------
+
+In the sleep laboratory, awakenings were conducted in SWS and REM sleep. Awakenings occurred following 10 min of sleep in each sleep stage.
+
+Two SWS awakenings were scheduled during the first and second SWS periods, while REM awakenings were scheduled from the third sleep cycle onwards. If participants recalled a dream from either or both SWS awakenings, they were woken 10 min into every following REM period, until morning. If they failed to recall a dream from the first two SWS awakenings, another SWS awakening was scheduled during the next SWS period. After three SWS awakenings, only REM awakenings followed, regardless of participants’ dream recall from SWS.
+
+Online scoring followed the AASM Manual for the Scoring of Sleep (Iber et al., 2007) and was subsequently confirmed offline.
+
+Participants were woken by a buzzer, and interviews were conducted via an intercom. After turning off the buzzer, participants heard the verbal prompt ‘What was going through your mind immediately before you were woken up?’ from a digital voice recorder, and dream reports were recorded using another recorder. To prompt the participants, they were next asked with a recorded message: ‘Can you remember anything else?’. After giving their dream report through the intercom, they were invited to go back to sleep. A researcher blind to the experiment transcribed each dream report.
+
+A full description of the materials and methods can be found in the following article:  
+Eichenlaub J-B, van Rijn E, Gaskell MG, Lewis PA, Maby E, Malinowski JE, Walker MP, Boy F, Blagrove M (2018) Incorporation of recent waking-life experiences in dreams correlates with frontal theta activity in REM sleep. Soc Cogn Affect Neurosci 13:637–647.
+
+Funding:  
+UK Economic and Social Research Council award ES/I037555/1 “Dream content as a measure of memory consolidation across multiple periods of sleep”
+
+
+### DREAM categorization procedure ###
+
+The dream reports were rated as following:  
+[2] If the participant reported any sort of mental content from sleep  
+[1] If the participant reported the impression of having had a dream but none of its content  
+[0] If the participant reported not remembering anything
+
+
+Technical details
+-----------------
+
+N/A
+
+
+### Data acquisition ###
+
+In the laboratory, electroencephalography (EEG), electrooculography (EOG) and electromyography (EMG) were continuously recorded using a Trackit 18/8 system (Lifelines Ltd, UK, sampling rate: 200Hz). EEG electrodes were placed according to the standard 10-20 system at F3, F4, C3 and C4. EOG electrodes were applied above the right outer canthus and below the left outer canthus. EMG electrodes were applied on the chin muscles. The common reference electrode was placed on top of the head at CPz position, and the ground electrode on the forehead.
+
+
+### Data preprocessing ###
+
+Polysomnography analysis was performed using Fieldtrip (Oostenveld et al., 2011) and MATLAB (The MathWorks, Inc.). 
+EEG channels were filtered between 1 and 25 Hz (high-and low-pass filters, respectively; bidirectional Butterworth, 4th order). EOG channels were filtered between 0.1 and 3Hz (high- and low-pass filters, respectively; bidirectional Butterworth, 4th order) before being re-referenced to each other (bipolar montage). EMG channels were filtered between 5 and 40Hz (high- and low-pass filters, respectively; bidirectional Butterworth, 4th order) before being re-referenced to each other (bipolar montage).
+
+EEG, EOG and EMG were finally epoched on the last 3 min of sleep preceding awakenings. Traces were visually inspected and awakenings/channels with overall excessive artifacts were excluded.
+
+In line with the approval of the local ethic committee (Research Ethics Committee of the School of Human and Health Sciences, Swansea University), all participants were assured raw data would remain confidential and secure. For information about the study or to request access to additional data, please contact Jean-Baptiste Eichenlaub (jean-baptiste.eichenlaub@univ-smb.fr, University of Savoie Mont Blanc) and/or Mark Blagrove (M.T.Blagrove@swansea.ac.uk, Swansea University, UK)
+",Swansea University Sleep Laboratory,2012-13,"Eichenlaub J-B, van Rijn E, Gaskell MG, Lewis PA, Maby E, Malinowski JE, Walker MP, Boy F, Blagrove M (2018) Incorporation of recent waking-life experiences in dreams correlates with frontal theta activity in REM sleep. Soc Cogn Affect Neurosci 13:637–647.",jean-baptiste.eichenlaub@univ-smb.fr and M.T.Blagrove@swansea.ac.uk,Anyone who applies will be granted access to the dataset. The data's secondary use was agreed to for all participants. We aim to respond as promptly as possible and will provide the private link within two weeks of receiving the request.,1677674585,Private,FALSE,TRUE
+10,9,0,1678201166,Multiple awakenings,DeGennaro_MultipleAwakenings,9,https://doi.org/10.6084/m9.figshare.22086266,"Serena Scarpelli, Luigi De Gennaro",456,19,0.339912,0.00657895,0.618421,0,0.688596,0.265351,1,Yes,Mixed,Categorical,"Dream EEG and Mentation (DREAM) dataset
+=======================================
+
+
+Dataset information
+-------------------
+
+- Common name: Multiple awakenings
+- Full name: DeGennaro_MultipleAwakenings
+- Authors: Serena Scarpelli, Luigi De Gennaro
+- Location: Sapienza University of Rome
+- Year: 2013-2018
+- Set ID: 9
+- Amendment: 0
+- Corresponding author ID: 9
+
+Previous publications:  
+Scarpelli, S., Bartolacci, C., D’Atri, A., Camaioni, M., Annarumma, L., Gorgoni, M., ... & De Gennaro, L. (2020). Electrophysiological Correlates of Dream Recall During REM Sleep: Evidence from Multiple Awakenings and Within-Subjects Design. Nature and Science of Sleep, 12, 1043.
+
+Correspondence:  
+serena.scarpelli@uniroma1.it
+
+
+Metadata
+--------
+
+- Key ID: 10
+- Date entered: 2023-03-07T14:59:26+00:00
+- Number of samples: 456
+- Number of subjects: 19
+- Proportion REM: 34%
+- Proportion N1: 1%
+- Proportion N2: 62%
+- Proportion W: 0%
+- Proportion experience: 69%
+- Proportion no-experience: 27%
+- Proportion healthy: 100%
+- Provoked awakening: Yes
+- Time of awakening: Mixed
+- Form of response: Categorical
+- Date approved: 2023-03-07T15:00:36+00:00
+
+
+How to decode data files
+------------------------
+
+N/A
+
+
+### Treatment group codes ###
+
+N/A
+
+
+Experimental description
+------------------------
+
+Twenty subjects (age range 18-30) were involved in the protocol.All participants signed informed consent for the collection and treatment of data prior to participating to the experiment. Each subject participated in two experimental sessions structured as follows: a) EEG montage; b) subjects were instructed to consider any distinct mental activity occurring during sleep as a dream experience; c) polysomnography (PSG) with planned-provoked awakenings; d) final morning awakening.
+
+In order to ensure comparability between the two experimental nights, each subject was required to keep regular sleep-wake schedule during the week preceding the experimental session. The compliance was verified by a sleep diary. Experimental sessions were separated by at least one week. Subjects were also requested to abstain from caffeine and alcohol during the day of experimental session. The timing of the sleep–wake schedule during the protocol was adjusted to individual sleep-wake habits.
+
+Multiple awakenings were planned for each sleep cycle from REM sleep or NREM sleep after at least 5 min without stage shifts by calling out the first name of the subject through an interphone system. Participants were asked to report if they had (REC condition) or had not (NREC condition) a dream experience just before awakening. We did not collect dream contents to avoid an excessive activation that can interfere with subsequent sleep.
+
+
+### DREAM categorization procedure ###
+
+2 = dream experience, 0 = No dream experience, -2 = No Experience or Experience without recall 
+
+
+Technical details
+-----------------
+
+Derivations with noise/artifacts are reported in the csv file.
+
+
+### Data acquisition ###
+
+The PSG was recorded in a sound-proof, temperature-controlled room inside the sleep laboratory. A Brain Amp MR plus system (Brain Products GmbH, Gilching, Munich) was used to record EEG throughout the nights at a sampling rate of 250 Hz. The 28 unipolar EEG derivations placed following the international 10–10 system (C3, C4, Cp1, Cp2, Cp5, Cp6, Cz, F3, F4, F7, F8, Fc1, Fc2, Fc5, Fc6, Fp1, Fp2, Fz, O1, O2, Oz, P3, P4, P7, P8, Pz, T7, T8) were recorded by using an elastic cap (Easycap, Falk Minow, Munich) with sintered Ag–AgCl electrodes. The cortical EEG signals were referenced online to the averaged mastoids (A1, A2) and the ground electrode was located anterior to Fz (Fpz). Electrooculogram (EOG) and submental electromyogram (EMG) channels were also recorded and referenced to mastoids (A1, A2). EEG signals were analogically high-pass filtered with the time constant of 0.3 s and lowpass filtered at 30 Hz. A notch filter was applied (50 Hz). Electrode impedance was fixed below 5 kΩ.
+
+Language: Italian.
+
+
+### Data preprocessing ###
+
+N/A
+",Sapienza University of Rome,2013-2018,"Scarpelli, S., Bartolacci, C., D’Atri, A., Camaioni, M., Annarumma, L., Gorgoni, M., ... & De Gennaro, L. (2020). Electrophysiological Correlates of Dream Recall During REM Sleep: Evidence from Multiple Awakenings and Within-Subjects Design. Nature and Science of Sleep, 12, 1043.",serena.scarpelli@uniroma1.it,#N/A,1678201236,Open,FALSE,TRUE
+11,10,0,1678445438,Sleep Talking,DeGennaro_SleepTalking,8,https://doi.org/10.6084/m9.figshare.16950856,"Luigi De Gennaro, Serena Scarpelli",22,12,0.227273,0.0454545,0.727273,0,0.5,0.454545,0,No,Morning,Categorical,"Dream EEG and Mentation (DREAM) dataset
+=======================================
+
+
+Dataset information
+-------------------
+
+- Common name: Sleep Talking
+- Full name: DeGennaro_SleepTalking
+- Authors: Luigi De Gennaro, Serena Scarpelli
+- Location: Italy
+- Year: N/A
+- Set ID: 10
+- Amendment: 0
+- Corresponding author ID: 8
+
+Previous publications:  
+none
+
+Correspondence:  
+luigi.degennaro@uniroma1.it
+
+
+Metadata
+--------
+
+- Key ID: 11
+- Date entered: 2023-03-10T10:50:38+00:00
+- Number of samples: 22
+- Number of subjects: 12
+- Proportion REM: 23%
+- Proportion N1: 5%
+- Proportion N2: 73%
+- Proportion W: 0%
+- Proportion experience: 50%
+- Proportion no-experience: 41%
+- Proportion healthy: 0%
+- Provoked awakening: No
+- Time of awakening: Morning
+- Form of response: Categorical
+- Date approved: 2023-03-10T10:51:40+00:00
+
+
+How to decode data files
+------------------------
+
+N/A
+
+
+### Treatment group codes ###
+
+Participants are Sleep Talkers
+
+
+Experimental description
+------------------------
+
+We carried out a three-phases selection procedure (Figure S1), including an online survey to rule out other sleep or psychiatric disorders and an at-home monitoring to objectively verify presence and frequency of the phenomenon prior in laboratory experimental recording (see Supplemental materials for a detailed description of the survey and participants’ selection criteria). Within a total of 1309 questionnaires, N = 155 (age range 18-69, mean age 26.32 ± 7.84; F 107) participants declared themselves as Highly frequent STs. From this sample, we selected N = 50 Highly frequent STs for home monitoring. During the home monitoring week, the participants produced 766 vocalizations (385 Non-verbal STs and 381 Verbal STs, 213 of which non-intelligible, for a total of 607 and 20414 intelligible characters) and 12 subjects (age range 19-30, 1 left-handed, 2 ambidextrous) were suitable for EEG recordings.
+
+The participants signed informed consent before participation in the study. The study was conducted in accordance with the Declaration of Helsinki and approved by the Institutional Review Board of the Department of Psychology of the Sapienza University of Rome (protocol number: 0001288).
+
+Language: Italian
+
+
+### DREAM categorization procedure ###
+
+2 = Experience with content recall (subjects report at least one dream report); 1 = Experience without content recall (in the dream diary subjects report the feeling of having had a dream but he/she does not remember the content), and 0 = No experience (subject report no recall or in the dream diary ""I don't know"" response without any clear feeling of having had a dream)
+
+
+Technical details
+-----------------
+
+We tested the 12 participants for at least two consecutive nights of undisturbed sleep: an adaptation night, to avoid a possible first night effect on the macro- and microstructural characteristics of sleep; one or more experimental nights, during which we pursued the conditions of Verbal ST (one or more episodes of ST with verbal vocalizations, whether intelligible or not) and Non-verbal ST (any grumbling, moaning, laughing, crying, long sigh).
+
+The experimental sessions started at 7 p.m. After completing the EEG headset assembly, the participants were placed in an acoustically isolated, temperature-controlled, audio/video-monitored bedroom for the vPSG recording.
+
+We guaranteed at least 8 hours of bedtime. The final awakenings were carried out at the end of the experimental night and necessarily after about 7 hours of undisturbed sleep. Upon the final awakening, the participants filled out the sleep- and dream log.
+
+
+### Data acquisition ###
+
+We acquired the PSG signal through a 32-channel system (BrainAmp MR Plus System, Brain Products GmbH, Gilching, Munich) and the dedicated BrainVision Recorder software for online visualization. The data relative to the cortical activity of the subjects (EEG) were acquired from the scalp through 28 cortical derivations (Fp1, F3, F7, Fc1, Fp2, F4, F8, Fc2, Fc5, C3, T7, Cp1, Fc6, C4, T8, Cp2, Cp5, P3, P7, O1, Cp6, P4, P8, O2, Fz, Cz, Pz, Oz), positioned according to the international 10-20 system, with reference on averaged mastoids (A1, A2), and ocular and muscular activity were recorded by EMG and EOG electrodes. The impedance of the electrodes was kept below 5 kOhms.
+
+PSG signals were recorded at a sampling rate of 250 Hz. EEG signals were high pass filtered with time constant of 1-s and low pass filtered at 70 Hz. Possible interference from the electricity network was filtered by a notch filter at 50 Hz (± 5Hz). The filters were implemented as phase shift-free Butterworth filters.
+
+
+### Data preprocessing ###
+
+none
+",Italy,#N/A,none,luigi.degennaro@uniroma1.it,#N/A,1678445500,Open,FALSE,TRUE
+12,11,0,1678688188,Dream_YoungAdults,DeGennaro_YoungAdults,8,https://doi.org/10.6084/m9.figshare.14899506,"Serena Scarpelli, Luigi De Gennaro",65,65,0.461538,0,0.538462,0,0.615385,0.384615,1,Yes,Morning,Structured,"Dream EEG and Mentation (DREAM) dataset
+=======================================
+
+
+Dataset information
+-------------------
+
+- Common name: Dream_YoungAdults
+- Full name: DeGennaro_YoungAdults
+- Authors: Serena Scarpelli, Luigi De Gennaro
+- Location: Rome, Italy
+- Year: N/A
+- Set ID: 11
+- Amendment: 0
+- Corresponding author ID: 8
+
+Previous publications:  
+Marzano, C., Ferrara, M., Mauro, F., Moroni, F., Gorgoni, M., Tempesta, D., ... ; De Gennaro, L. (2011). Recalling and forgetting dreams: theta and alpha oscillations during sleep predict subsequent dream recall. Journal of Neuroscience, 31(18), 6674-6683.
+
+Correspondence:  
+luigi.degennaro@uniroma1.it
+
+
+Metadata
+--------
+
+- Key ID: 12
+- Date entered: 2023-03-13T06:16:28+00:00
+- Number of samples: 65
+- Number of subjects: 65
+- Proportion REM: 46%
+- Proportion N1: 0%
+- Proportion N2: 54%
+- Proportion W: 0%
+- Proportion experience: 62%
+- Proportion no-experience: 38%
+- Proportion healthy: 100%
+- Provoked awakening: Yes
+- Time of awakening: Morning
+- Form of response: Structured
+- Date approved: 2023-03-13T06:19:06+00:00
+
+
+How to decode data files
+------------------------
+
+Please note that the files contain the last 5-min of each night recording.
+
+
+### Treatment group codes ###
+
+N/A
+
+
+Experimental description
+------------------------
+
+Data for this analysis were obtained by selecting an ad hoc sample of 65 university students [35 males (M) and 30 females (F); mean age, 23.6 ± 2.1 years]. Subjects were selected from those who participated to distinct protocols (De Gennaro et al., 2008, 2010; C. Marzano, M. Ferrara, F. Moroni, and L. De Gennaro, unpublished observations), on the basis of the following study-specific criteria: (1) polysomnographic (PSG) recordings of 2 consecutive nights (for adaptation and baseline, respectively) of undisturbed sleep; (2) the collection of a sleep and dream diary (see below) after morning awakening in the second night; and (3) the absence of stage shifts in the last 5 min of sleep preceding the provoked awakening at the end of the second night.
+
+Additionally, the subjects had to meet the following general criteria: normal sleep duration and schedule; no daytime nap habits; no excessive daytime sleepiness; no other sleep, medical, or psychiatric disorder (as assessed by a 1 week sleep log and by a clinical interview); a habitual sleep time between 12:00 A.M. and 8:00 A.M. plus or minus 1 h; and an average sleep duration of 7.5 ± 1 h hours per night.
+
+In such a way, we considered 35 (16 M and 19 F) subjects awakened from stage 2 sleep and 30 (19 M and 11 F) from REM sleep, also taking into consideration the need to have comparable sizes for the groups recalling and nonrecalling dreams after either REM or stage 2 sleep.
+
+The protocol of the present study was approved by the local Institutional Ethics Committee and was conducted in accordance with the Declaration of Helsinki. All subjects had previously given their written informed consent for the collection and treatment of data.
+
+For each subject, a polysomnogram was recorded in a sound-proof, temperature-controlled room after an adaptation night. Hence, the recordings were obtained during second nights in the sleep laboratory, and any procedural aspect was completely identical to the first adaptation night. The subjects’ sleep was undisturbed during the night. Awakenings were scheduled from stage 2 sleep (n = 35) or from REM sleep (n = 30) after at least 5 min without stage shifts (by calling out his/her name and entering in the sleep room). The decision to wake up the subject was taken by the sleep researcher who examined PSG recording online, and the absence of stage shifts over the last 5 min of sleep was then confirmed by an independent expert, who off-line scored PSG recording.
+
+Just after morning awakening, subjects were requested to fill out a sleep and dream diary (De Gennaro et al., 2010), to collect subjective estimates of sleep characteristics (sleep onset latency, number of awakenings, total sleep time, sleep quality) and of dream recall, namely the feeling of having or having not dreamt.
+
+Language: Italian
+
+
+### DREAM categorization procedure ###
+
+Dream Recall = 2; Absence of dream recall = 0
+
+
+Technical details
+-----------------
+
+N/A
+
+
+### Data acquisition ###
+
+A VEGA 24 polygraph (Esaote Biomedica) was used for polygraphic recordings. EEG signals were analogically high-pass filtered with a time constant of 0.3 s and low-pass filtered at 30 Hz. The 19 unipolar EEG derivations of the international 10–20 system (Fp1, Fp2, F7, F8, F3, F4, Fz, C3, C4, Cz, P3, P4, Pz, T3, T4, T5, T6, O1, O2) were recorded from scalp electrodes with averaged mastoid reference.
+
+The submental EMG was recorded with a time constant of 0.03 s.
+
+Bipolar horizontal eye movements were recorded with a time constant of 1 s. The bipolar horizontal electrooculogram (EOG) was recorded from electrodes placed about 1 cm from the medial and lateral canthi of the dominant eye. Impedance of these electrodes was kept below 5 kOhms.
+
+
+### Data preprocessing ###
+
+The files have been converted from txt to edf.
+","Rome, Italy",#N/A,"Marzano, C., Ferrara, M., Mauro, F., Moroni, F., Gorgoni, M., Tempesta, D., ... ; De Gennaro, L. (2011). Recalling and forgetting dreams: theta and alpha oscillations during sleep predict subsequent dream recall. Journal of Neuroscience, 31(18), 6674-6683.",luigi.degennaro@uniroma1.it,#N/A,1678688346,Open,FALSE,TRUE
+13,12,0,1678692041,Older adults,DeGennaro_older_adults,9,https://doi.org/10.6084/m9.figshare.14500563,"Luigi De Gennaro, Serena Scarpelli",40,40,0.5,0,0.5,0,0.45,0.55,1,Yes,Morning,Free,"Dream EEG and Mentation (DREAM) dataset
+=======================================
+
+
+Dataset information
+-------------------
+
+- Common name: Older adults
+- Full name: DeGennaro_older_adults
+- Authors: Luigi De Gennaro, Serena Scarpelli
+- Location: N/A
+- Year: N/A
+- Set ID: 12
+- Amendment: 0
+- Corresponding author ID: 9
+
+Previous publications:  
+- Scarpelli, S., D’Atri, A., Bartolacci, C., Gorgoni, M., Mangiaruga, A., Ferrara, M., & De Gennaro, L. (2020). Dream recall upon awakening from non-rapid eye movement sleep in older adults: electrophysiological pattern and qualitative features. Brain sciences, 10(6), 343.
+- Scarpelli, S., D'Atri, A., Bartolacci, C., Mangiaruga, A., Gorgoni, M., & De Gennaro, L. (2019). Oscillatory EEG activity during REM sleep in elderly people predicts subsequent dream recall after awakenings. Frontiers in neurology, 10, 985.
+
+Correspondence:  
+serena.scarpelli@uniroma1.it
+
+
+Metadata
+--------
+
+- Key ID: 13
+- Date entered: 2023-03-13T07:20:41+00:00
+- Number of samples: 40
+- Number of subjects: 40
+- Proportion REM: 50%
+- Proportion N1: 0%
+- Proportion N2: 50%
+- Proportion W: 0%
+- Proportion experience: 45%
+- Proportion no-experience: 55%
+- Proportion healthy: 100%
+- Provoked awakening: Yes
+- Time of awakening: Morning
+- Form of response: Free
+- Date approved: 2023-03-13T07:26:59+00:00
+
+
+How to decode data files
+------------------------
+
+In this dataset we report the PSG recording of each subject awakened upon an undisturbed night.
+
+Please note that we reported the whole  night or just the last part of the night. Dream recall was collected after the last morning awakening.
+
+
+### Treatment group codes ###
+
+N/A
+
+
+Experimental description
+------------------------
+
+Forty subjects were involved in the protocol. The following inclusion criteria were considered for all subjects: the absence of psychiatric or neurological disorders and cognitive impairment; the absence of sleep disturbances and/or the condition of excessive daytime sleepiness; the absence of other relevant medical conditions and obesity; the absence of alcohol and other substance addiction; regular sleep-wake rhythms. To ascertain the eligibility for the study enrollment, a clinical and anamnestic interview was administered at the recruitment phase.
+
+All the participants signed informed consent before the experimental session. The study protocol (#1128/2016) was approved on 1 December 2016 by the Institutional Ethics Committee of the Department of Psychology of the “Sapienza” University of Rome according to the Declaration of Helsinki.
+
+Before the sleep recording, all the subjects were trained to consider all types of mental sleep activity as dream experience (both oneiric- and thought-like dreams) and how to provide their dream report upon the morning awakening. The participants were awakened in the morning by calling out their first name and were immediately invited to verbally record “everything that was going through your mind during the sleep period”, providing as many details as possible. Subjects who reported at least one dream experience were defined as RECallers, while subjects who did not report any DR were defined as Non-RECallers. Dream categories were reported in the csv file.
+
+Please note that no subject reported white dream in this dataset.
+
+The study was conducted in Italian language.
+
+
+### DREAM categorization procedure ###
+
+N/A
+
+
+Technical details
+-----------------
+
+N/A
+
+
+### Data acquisition ###
+
+All the PSG data were recorded by using the Micromed system plus a digital polygraph. The 19 unipolar EEG scalp derivations (Ag/AgCl electrodes) were placed following the international 10–20 system (F1, F2, F3, F4, F7, F8, Fz, C3, C4, Cz, P3, P4, Pz, O1, O2, T3, T4, T5, and T6), and the A1 and A2 from mastoids were acquired with a sampling frequency of 256 Hz and a bandpass filtered at 0.5–30 Hz. Additionally, a notch filter was applied (50 Hz). The ground electrode was placed at the frontopolar location (Fpz). In addition, two bipolar channel, electrooculogram (EOG) and submental electromyogram (EMG), signals were recorded. EOG electrodes were placed about 1 cm from the medial and lateral canthi of the dominant eye. Bedtime was between 10:00 PM and 12:00 AM, while the morning awakening was between 5:00 and 7:00 AM depending on each participant’s usual schedule. All the subjects were awakened from stage 2 NREM sleep or REM sleep. The researcher checked the PSG and decided to wake the subject up when no stage shift over the last 5 min of sleep had occurred.
+
+
+### Data preprocessing ###
+
+N/A
+",#N/A,#N/A,"- Scarpelli, S., D’Atri, A., Bartolacci, C., Gorgoni, M., Mangiaruga, A., Ferrara, M., & De Gennaro, L. (2020). Dream recall upon awakening from non-rapid eye movement sleep in older adults: electrophysiological pattern and qualitative features. Brain sciences, 10(6), 343.
+- Scarpelli, S., D'Atri, A., Bartolacci, C., Mangiaruga, A., Gorgoni, M., & De Gennaro, L. (2019). Oscillatory EEG activity during REM sleep in elderly people predicts subsequent dream recall after awakenings. Frontiers in neurology, 10, 985.",serena.scarpelli@uniroma1.it,#N/A,1678692419,Open,FALSE,TRUE
+14,13,0,1682069919,Tononi Serial Awakenings,#N/A,14,#N/A,"Francesca Siclari, Benjamin Baird, Lampros Perogamvros, Melanie Boly, Joshua LaRocque, Giulio Tononi",261,36,0,0,1,0,0.421456,0.386973,1,Yes,Night,Free,"Dream EEG and Mentation (DREAM) dataset
+=======================================
+
+
+Dataset information
+-------------------
+
+- Common name: Tononi Serial Awakenings
+- Full name: N/A
+- Authors: Francesca Siclari, Benjamin Baird, Lampros Perogamvros, Melanie Boly, Joshua LaRocque, Giulio Tononi
+- Location: Madison, WI
+- Year: 2016
+- Set ID: 13
+- Amendment: 0
+- Corresponding author ID: Francesca Siclari
+
+Previous publications:  
+Siclari et al Nature Neuroscience 2017
+
+Correspondence:  
+Francesca Siclari (email: f.siclari@nin.knaw.nl)
+Benjamin Baird (email: baird@utexas.edu)
+
+
+Metadata
+--------
+
+- Key ID: 14
+- Date entered: 2023-04-21T09:38:39+00:00
+- Number of samples: 261
+- Number of subjects: 36
+- Proportion REM: 0%
+- Proportion N1: 0%
+- Proportion N2: 100%
+- Proportion W: 0%
+- Proportion experience: 42%
+- Proportion no-experience: 39%
+- Proportion healthy: 100%
+- Provoked awakening: Yes
+- Time of awakening: Night
+- Form of response: Free
+- Date approved: 2023-04-21T09:39:20+00:00
+
+
+How to decode data files
+------------------------
+
+File ""Data/HydroCelGSN256v10.sfp"" gives the channel locations for all PSGs. It is a BESA surface point coordinate or EGI-xyz Cartesian coordinate file (.sfp); details about this format may be found at http://wiki.besa.de/index.php?title=Working_With_Additional_Files&oldid=5145.
+
+
+### Treatment group codes ###
+
+N/A
+
+
+Experimental description
+------------------------
+
+Procedure. The procedure used in this study has been described in detail in a previous publication9. Awakenings in the sleep laboratory were performed at pseudorandom intervals, irrespective of sleep stage, using a computerized sound that lasted 1.5 s, which was administered through E-Prime (Psychology Software Tools, Pittsburgh, PA). Subjects were instructed to signal that they had heard the alarm sound and to lie quietly on their back. They then underwent a structured interview via intercom about their mental activity that lasted between 20 s and 3.5 min, depending on whether the subject reported a conscious experience and had to answer additional questions related to the content. Signed informed consent was obtained from all participants before the experiment, and ethical approval for the study was obtained from the University of Wisconsin–Madison Institutional Review Board. Data collection and analysis were not performed blind to the conditions of the experiments.
+
+Study participants in experiment 1. Thirty-two healthy subjects (12 males, age 46 ± 13.3 years (mean ± s.d.), range 24–65 years), selected from a group of 69 subjects participating in a larger research project in our laboratory, were included in this experiment. Subjects were randomly selected from the subset of all participants that had at least one DE and NE report in NREM sleep during the same night. Among the 240 awakenings performed in these 32 subjects, 5 had to be excluded for technical problems and 2 because subjects were too somnolent upon awakening to answer questions reliably. Comparisons between DEWR–NE conditions and DE–DEWR conditions were performed in the subset of these participants (N = 20) that had all three types (DE, DEWR, NE) of report during the same night. In REM sleep, only 6 of the 69 participants presented both DE and NE. They were all included in the analysis.
+
+Sleep recordings. Recordings were made at the Wisconsin Center for Sleep and Consciousness. They were performed using a 256-channel high-density EEG (hd-EEG) system (Electrical Geodesics, Inc., Eugene, Ore.). Four of the 256 electrodes placed at the outer canthi of the eyes were used to monitor eye movements; additional polysomnography channels were used to record submental electromyography. Sleep scoring was performed over 30-s epochs, according to standard criteria.
+
+
+### DREAM categorization procedure ###
+
+We have converted dream categories in Records.csv as DE = Experience, DEWR = Experience without recall, NE = No Experience.
+
+
+Technical details
+-----------------
+
+N/A
+
+
+### Data acquisition ###
+
+EGI Geodesic with concurrent Alice PSG
+
+
+### Data preprocessing ###
+
+Raw data (no preprocessing)
+","Madison, WI",2016,Siclari et al Nature Neuroscience 2017,"Francesca Siclari (email: f.siclari@nin.knaw.nl)
+Benjamin Baird (email: baird@utexas.edu)",#N/A,1682069960,Open,TRUE,FALSE
+15,14,0,1682660901,Brain Institute - Federal University of Rio Grande do Norte,ICe - UFRN,13,https://doi.org/10.26180/23904699.v1,"Draulio Araujo, Fernanda Palhano-Fontes, Katia Andrade, Sergio Mota-Rolim",41,41,0.487805,0.121951,0.390244,0,0.609756,0.390244,1,Yes,Morning,Free,"Dream EEG and Mentation (DREAM) dataset
+=======================================
+
+
+Dataset information
+-------------------
+
+- Common name: Brain Institute - Federal University of Rio Grande do Norte
+- Full name: ICe - UFRN
+- Authors: Draulio Araujo, Fernanda Palhano-Fontes, Katia Andrade, Sergio Mota-Rolim
+- Location: Onofre Lopes University Hospital, Natal - Brazil
+- Year: 2014-2016
+- Set ID: 14
+- Amendment: 0
+- Corresponding author ID: 13
+
+Previous publications:  
+This EEG data was not published yet. The main associated study is Palhano-Fontes et al. (2019). Rapid antidepressant effects of the psychedelic ayahuasca in treatment-resistant depression: a randomized placebo-controlled trial. Psychological medicine 49 (4), 655-663.
+
+Correspondence:  
+sergioarthuro@neuro.ufrn.br
+
+
+Metadata
+--------
+
+- Key ID: 15
+- Date entered: 2023-04-28T05:48:21+00:00
+- Number of samples: 41
+- Number of subjects: 41
+- Proportion REM: 49%
+- Proportion N1: 12%
+- Proportion N2: 39%
+- Proportion W: 0%
+- Proportion experience: 61%
+- Proportion no-experience: 39%
+- Proportion healthy: 100%
+- Provoked awakening: Yes
+- Time of awakening: Morning
+- Form of response: Free
+- Date approved: 2023-04-28T05:49:13+00:00
+
+
+How to decode data files
+------------------------
+
+The data contains EEG full night recordings of 41 subjects.
+
+NOTE: PSG files contain a period of silence at the end of the recording due to a limitation of the data format.
+
+For each of the 41 subjects, the dream reports are in PDF files, originally named J1-25 and O1-24. Each file represents a dream that a subject reported after awakening, from a whole night of sleep, at about 6:00h in the morning (6am - local time). The J and O groups are placebo and ayahuasca, but since the recordings were before the dosing session, you can just ignore these J and O groups. The reports are in written text format in Portuguese.
+
+
+### Treatment group codes ###
+
+No treatment.
+
+
+Experimental description
+------------------------
+
+Before sleeping, we asked subjects to perform 2 tasks. The first one consisted of 20 seconds of Eyes Open (EO) and 40 seconds of Eyes Closed (EC), 4 times. In the second task, subjects were asked to maintain their eyes closed for 5 minutes, and stay awake. After these tasks, subjects were allowed to sleep.
+
+We awakened the subjects at about 6:00h in the morning (6am - local time). After awakening, subjects were then asked if they remembered a dream. If yes, we asked them to report their experience. The free verbal report was recorded and transcribed into written text.
+
+We selected the subjects (n = 41) from the control group of a double-blind parallel-arm randomized placebo-controlled trial (Palhano-Fontes et al., 2018). Sleep recordings took place at the Onofre Lopes University Hospital (HUOL), Natal-RN (Brazil). The University Hospital Research Ethics Committee approved the study (# 579.479), and all subjects provided written informed consent before participation.
+
+Sleep EEG recordings were acquired by Brain Products - Easy Cap with 32 channels, using FCz as a reference. The sampling frequency was 1kHz. At the beginning of each recording, we asked subjects to do some tasks for artifact recognition like moving their eyes, blinking, and chewing. Before sleeping, we asked subjects to perform 2 more tasks. The first one consisted of 20 seconds of Eyes Open (EO) and 40 seconds of Eyes Closed (EC), 4 times. In the second task, subjects were asked to maintain their eyes closed for 5 minutes, and stay awake. After these tasks, subjects were allowed to sleep. 
+
+
+### DREAM categorization procedure ###
+
+All dream reports were categorized according to the DREAM experience report categories based on subjects' free verbal reports. From the 41 reports during awakening from a night of sleep, 16 did not remember a dream (J3, J5, J6, J11, J12, J17, J18, J21, J22, J25, O1, O2, O5, O19, O20, O23).
+
+
+Technical details
+-----------------
+
+At the beginning of each recording, we asked subjects to do some tasks for artifact recognition like moving their eyes, blinking, and chewing. 
+
+
+### Data acquisition ###
+
+EEG data was acquired by a Brain Products - Easy Cap with 32 channels, using FCz as reference. The sampling frequency was 1kHz.
+
+
+### Data preprocessing ###
+
+Data has not been pre-processed.
+","Onofre Lopes University Hospital, Natal - Brazil",2014-2016,"This EEG data was not published yet. The main associated study is Palhano-Fontes et al. (2019). Rapid antidepressant effects of the psychedelic ayahuasca in treatment-resistant depression: a randomized placebo-controlled trial. Psychological medicine 49 (4), 655-663.",sergioarthuro@neuro.ufrn.br,#N/A,1682660953,Open,FALSE,TRUE
+16,15,0,1654768277,Noreika_Motor_tDCS,Transcranial direct current stimulation over the sensorimotor cortex during REM sleep dreaming,2,https://doi.org/10.6084/m9.figshare.24058848.v1,"Noreika, V., Windt, J.M., Kern, M., Valli, K., Salonen, T., Parkkola, R., Revonsuo, A., Karim, A.A., Ball, T. and Lenggenhager, B.",49,10,1,0,0,0,1,0,1,Yes,Night,Structured,"Dream EEG and Mentation (DREAM) dataset
+=======================================
+
+
+Dataset information
+-------------------
+
+- Common name: Noreika_Motor_tDCS
+- Full name: Transcranial direct current stimulation over the sensorimotor cortex during REM sleep dreaming
+- Authors: Valdas Noreika, Jennifer M. Windt, Katja Valli, Antti Revonsuo, Bigna Lenggenhager
+- Location: Turku, Finland
+- Year: 2020
+- Set ID: 15
+- Amendment: 0
+- Corresponding author ID: 2
+
+Previous publications:  
+Noreika, V., Windt, J.M., Kern, M., Valli, K., Salonen, T., Parkkola, R., Revonsuo, A., Karim, A.A., Ball, T. and Lenggenhager, B., 2020. Modulating dream experience: Noninvasive brain stimulation over the sensorimotor cortex reduces dream movement. Scientific Reports, 10(1), pp.1-19. https://doi.org/10.1038/s41598-020-63479-6
+
+Correspondence:  
+Valdas Noreika, valnoreika@gmail.com OR v.noreika@qmul.ac.uk
+
+
+Metadata
+--------
+
+- Key ID: 16
+- Date entered: 2022-06-09T09:51:17+00:00
+- Number of samples: 49
+- Number of subjects: 10
+- Proportion REM: 100%
+- Proportion N1: 0%
+- Proportion N2: 0%
+- Proportion W: 0%
+- Proportion experience: 100%
+- Proportion no-experience: 0%
+- Proportion healthy: 100%
+- Provoked awakening: Yes
+- Time of awakening: Night
+- Form of response: Structured
+- Date approved: 2023-06-09T12:01:22+00:00
+
+
+How to decode data files
+------------------------
+
+File 'Reports' contains participants' responses to the Bodily Experiences in Dreams (BED) Questionnaire. Please note, responses 1-49 match EEG files 1-49. In addition, there is one response, No. 50, which does not have associated EEG file.
+
+The BED Questionnaire can be found at (see pages 8-13): https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-020-63479-6/MediaObjects/41598_2020_63479_MOESM1_ESM.pdf
+
+
+### Treatment group codes ###
+
+* 1=Sham-stimulation
+* 2=Sensorimotor tDCS stimulation
+
+
+Experimental description
+------------------------
+
+The study protocol consisted of a recruitment and screening session, an MRI session, and two sleep sessions on non-consecutive nights (see Fig. 1A in Noreika et al., 2020). In addition, a TMS assessment of motor cortical excitability took place on the evening of the first sleep session. Ten participants were awakened from REM sleep two or three times per night and asked to give free dream reports and answer the Bodily Experiences in Dreams (BED) Questionnaire, which targeted the dream immediately preceding awakening (see Fig. 1B in Noreika et al., 2020). Participants received sham-stimulation during REM sleep on one night and bihemispheric tDCS on the other night. Bihemispheric tDCS montage included a cathode placed over the left sensorimotor cortex and an anode placed over the right sensorimotor cortex (see Fig. 1C in Noreika et al., 2020). In addition to standard polysomnography, central and peripheral electrophysiological data were recorded using 16 electroencephalography (EEG) channels and 4 EMG channels measuring flexor and deltoid muscles in both arms.
+
+
+### DREAM categorization procedure ###
+
+All reports contain dreams - verbally reported subjective experiences during sleep. The key dependent variable in the study was answers to the Bodily Experiences in Dreams (BED) Questionnaire.
+
+The (maximally) 41-item BED Questionnaire was designed to gather detailed information about kinaesthetic and other bodily experiences in dreams. The BED Questionnaire consists of 5 general questions with movement sub-scales accessed through conditional branching (for a full list of questions, see Appendix 1 in Noreika et al., 2020). Each of the general questions targets a particular category of body-related experience: vestibular sensations, tactile and somatosensory experiences, movements, movement alterations, and body scheme alterations. Each general question, if and only if answered positively, is followed by sub-scales targeting more specific instances of this category of experience. For example, if a participant indicated that they had experienced movement sensations, they would then be asked about the occurrence of specific types of movement sensations, such as single, repetitive, and passive movements. In addition, if and only if participants reported specific sensations, they were additionally asked whether this sensation concerned the whole body, the right or left hand, the right or left side of the face, or another body part; if the latter was the case, they could indicate which one in open questions. If one of the main scales was answered negatively, the questionnaire skipped to the next general category without showing the subscales. Depending on whether a sub-scale asked about the intensity or the duration of experience, 9 point Likert-scales for answering ranged either from “1 = Low intensity” to “9 = High intensity” or from “1 = Never” to “9 = Throughout”.
+
+
+Technical details
+-----------------
+
+Recordings contain:
+- 16 EEG channels (standard labels)
+- 4 EOG channels (Eh1 and Eh2 recorded horizontal eye movements, and Ev1 and Ev2 recorded vertical eye movements)
+- 5 EMG channels (M1 - chin EMG, FlP-FlD - a bipolar channel recording EMG from left arm flexor digitorum profundus muscle, FrP-FrD - a bipolar channel recording EMG from right arm flexor digitorum profundus muscle, DlP-DlD - a bipolar channel recording EMG from left arm deltoid muscle, DrP-DrD - a bipolar channel recording EMG from right deltoid muscle) 
+- EDF files may contain an additional STATUS channel with a boundary event, that was automatically created by EEGlab when cutting files. As this event has no meaning, the STATUS channel can be ignored/deleted.
+
+#### Electrophysiological recordings ####
+
+To record EEG activity, 16 electrodes (Fp1, Fp2, F7, F3, Fz, F4, F8, T3, T4, T5, P3, Pz, P4, T6, O1, O2) were placed on the scalp following the standard 10–20 system (Jasper, 1958). C3, Cz and C4 electrode locations were left empty for the placement of tDCS electrodes. To record eye blinks and vertical saccades, two electrooculography (EOG) electrodes were placed below and above the left eye, while two other electrodes placed adjacent to the lateral canthi of each eye were used to measure horizontal saccades. An electromyography (EMG) electrode placed on the chin was used to record muscle tone, which was used for the scoring of sleep stages. The reference for all these electrodes was placed on the right ear mastoid and the ground electrode was placed on the temple. In addition, two bipolar EMG channels were used to record muscle activity in the right and the left arm flexor digitorum profundus, which were later used to analyze peripheral motor activity. Another two EMG channels recorded activity of the deltoid muscles in both arms. Electrophysiological recordings were continuously monitored on a computer screen and all electrodes were regularly checked throughout the night to ensure that the impedance remained under 5 kΩ. All data were recorded at 500 Hz sampling rate with Ag/AgCl electrodes using NeuroScan amplifier SynAmps Model 5083. Given that tDCS onset induces a slow frequency artifact in the EEG that may preclude online polysomnographic scoring, a 1-Hz high-pass filter was applied during recording for online monitoring of sleep stages (Marshall et al., 2004). As expected, tDCS onset- and offset-induced artifacts always faded away after 5–10 sec.
+
+
+### Data acquisition ###
+
+#### Collection of dream reports ####
+
+Based on previous research of tDCS over the motor cortex (Nitsche et al., 2000), we expected the stimulation effects to last for at least one minute, providing a window of tDCS-artefact-free electrophysiological data. Thus, one minute after the termination of tDCS or sham-stimulation, participants were awakened from REM sleep with a standard awakening tone. They were then asked to give a verbal report of “everything that was going on in your mind before awakening”, aiming to facilitate dream recall. Afterwards, participants were asked if they remembered anything else about their dream. To avoid a possible bias between stimulation conditions, these questions were played from a pre-recorded computer audio file.
+
+Following the free dream report, participants were asked to fill in the BED Questionnaire. The questionnaire was designed as an internet survey programmed on www.webropol.com and was projected on a screen above the bed in the sleep laboratory. The monitor was on a flexibly moving arm and could easily be moved into a comfortable position, enabling participants to navigate and respond to the BED Questionnaire by controlling a mouse while lying in bed. To answer the questions with an open format, participants used a keyboard that was placed nearby.
+
+Participants were stimulated and awakened two or three times per night, depending on how many REM sleep periods they had. The number of awakenings was balanced across the first and the second night and across the two stimulation conditions. White dream reports (i.e. cases when a person reports the occurrence of dream experiences but cannot recall any specific details) as well as sleep mentation reports (i.e. when a person reports non-perceptual subjective experiences, such as thinking) were excluded from the analysis. Two white dream and three sleep mentation reports, reported by five different participants, were excluded, as well as the answers to the BED Questionnaire (see above) collected after these verbal reports. All excluded reports were collected after the first awakening, and four of them after sham-stimulation. A total of 50 dreams reported during a total of 20 nights were available for analyses.
+
+
+### Data preprocessing ###
+
+Recordings provide raw data.
+","Turku, Finland",2020,"Noreika, V., Windt, J.M., Kern, M., Valli, K., Salonen, T., Parkkola, R., Revonsuo, A., Karim, A.A., Ball, T. and Lenggenhager, B., 2020. Modulating dream experience: Noninvasive brain stimulation over the sensorimotor cortex reduces dream movement. Scientific Reports, 10(1), pp.1-19. https://doi.org/10.1038/s41598-020-63479-6","Valdas Noreika, valnoreika@gmail.com OR v.noreika@qmul.ac.uk",#N/A,1686312082,Open,FALSE,TRUE
+17,16,0,1654864651,DATA1,#N/A,2,https://doi.org/10.6084/m9.figshare.24058740.v1,"Valdas Noreika, Mila Oravecz, Lisa Svartsjö",324,10,0.132716,0,0.268519,0.00617284,0.330247,0.364198,1,Yes,Night,Structured,"Dream EEG and Mentation (DREAM) data set
+========================================
+
+
+Data set information
+--------------------
+
+- Common name: Noreika_DATA1
+- Full name: N/A
+- Authors: Valdas Noreika, Mila Oravecz, Lisa Svartsjö
+- Location: N/A
+- Year: N/A
+- Set ID: 16
+- Amendment: 0
+- Corresponding author ID: 2
+
+Previous publications:  
+Wong, W., Noreika, V., Móró, L., Revonsuo, A., Windt, J., Valli, K., & Tsuchiya, N. (2020). The Dream Catcher experiment: blinded analyses failed to detect markers of dreaming consciousness in EEG spectral power. Neuroscience of consciousness, 2020(1), niaa006. 
+https://academic.oup.com/nc/article/2020/1/niaa006/5871813  
+Noreika, V., Valli, K., Lahtela, H., & Revonsuo, A. (2009). Early-night serial awakenings as a new paradigm for studies on NREM dreaming. International Journal of Psychophysiology, 74(1), 14-18. https://doi.org/10.1016/j.ijpsycho.2009.06.002
+
+Correspondence:  
+For enquiries, please contact Valdas Noreika valnoreika@gmail.com or v.noreika@qmul.ac.uk
+
+
+Metadata
+--------
+
+- Key ID: 17
+- Date entered: 2022-06-10T12:37:31+00:00
+- Number of samples: 324
+- Number of subjects: 10
+- Proportion REM: 13%
+- Proportion N1: 0%
+- Proportion N2: 27%
+- Proportion W: 1%
+- Proportion experience: 33%
+- Proportion no-experience: 36%
+- Proportion healthy: 100%
+- Provoked awakening: Yes
+- Time of awakening: Night
+- Form of response: Structured
+- Date approved: 2023-06-09T12:25:16+00:00
+
+
+How to decode data files
+------------------------
+
+In the Records file, Remarks contain information about the duration of experiment from the lights of in the beginning of the whole session to the individual awakening. 
+
+
+### Treatment group codes ###
+
+N/A
+
+
+Experimental description
+------------------------
+
+Data were collected at the Centre for Cognitive Neuroscience, Department of Psychology, University of Turku, Turku, Finland, in 2006-2007. The experimenters were Valdas Noreika, Mila Oravecz and Lisa Svartsjö. The project was supervised by Katja Valli and Antti Revonsuo. Technical help was provided by Levente Móró.
+
+The experiment is described by Wong et al. (2020) as follows:
+
+Fifteen Finnish-speaking volunteers were recruited to the study from a larger pool of candidates. They were screened to have no issues with psychological and neurological health, take no central-nervous-system-affecting drugs, or have any sleep disorders at the time of the study. Their handedness was tested by means of the Edinburgh Handedness Questionnaire (Oldfield 1971).
+
+Participants spent one adaptation night in the sleep laboratory, in which the researchers aimed to assess the participants' sleep latency and ability to give clear dream reports, as well as to familiarize them with sleep laboratory environment. Five participants were excluded following adaptation nights due to sleeping difficulties in the laboratory, unclear dream reports upon awakening from NREM sleep, and/or sleep EEG artefacts due to sweating. The remaining 10 participants spent four experimental nights in the laboratory, for which each participant was compensated with 100 euros in total.
+
+Dream reports and PSGs were collected during the first 3–4 h of sleep following an early night serial-awakening (ENSA) paradigm (Noreika et al. 2009). Refer to Supplementary Material S1 in Wong et al. (2020) for our sleep data collection procedures and methods, Supplementary Material S2 in Wong et al. (2020) for the interview procedure and Supplementary Material S3 in Wong et al. (2020) for transcribed exemplar dream reports.
+
+
+### DREAM categorization procedure ###
+
+All collected dream reports were divided by two blind raters (Master students in psychology) into four categories following Dement (1955): (i) dreamless sleep, (ii) white dream (i.e. the participant strongly felt they had had some experiences right before awakening, but could not recall any specific content), (iii) uncertain (between dreamless sleep and white dreaming) and (iv) dreamful (see Supplementary Material S1 in Wong et al. (2020) for details).
+
+Dream reports were also content analysed by the same two blind raters (Master students in psychology) using Orlinksy's Modified Scale for Perceptual Complexity of Dreams (see Table 1 in Noreika et al., 2009), with higher scores indicating more complex dreams (see Data/Reports).
+
+These categories were translated into DREAM experience report categories as follows:
+
+- Dreamless sleep -> No experience
+- White dream -> Experience without recall
+- Uncertain -> No experience or Experience without recall, combined
+- Dreamful -> Experience
+
+
+Technical details
+-----------------
+
+PSG included 25-channel EEG, 2-channel EOG (E1 and E1) and 2-channel EMG (M1 and SM-M2).
+
+
+### Data acquisition ###
+
+N/A
+
+
+### Data preprocessing ###
+
+N/A
+",#N/A,#N/A,"Wong, W., Noreika, V., Móró, L., Revonsuo, A., Windt, J., Valli, K., & Tsuchiya, N. (2020). The Dream Catcher experiment: blinded analyses failed to detect markers of dreaming consciousness in EEG spectral power. Neuroscience of consciousness, 2020(1), niaa006. 
+https://academic.oup.com/nc/article/2020/1/niaa006/5871813
+Noreika, V., Valli, K., Lahtela, H., & Revonsuo, A. (2009). Early-night serial awakenings as a new paradigm for studies on NREM dreaming. International Journal of Psychophysiology, 74(1), 14-18. https://doi.org/10.1016/j.ijpsycho.2009.06.002","For enquiries, please contact Valdas Noreika valnoreika@gmail.com or v.noreika@qmul.ac.uk",#N/A,1686313516,Open,FALSE,TRUE
+18,13,1,1689671828,Tononi Serial Awakenings,#N/A,17,https://doi.org/10.26180/23306054.v2,"Francesca Siclari, Benjamin Baird, Lampros Perogamvros, Melanie Boly, Joshua LaRocque, Giulio Tononi",261,36,0,0,1,0,0.421456,0.386973,1,Yes,Night,Free,"Dream EEG and Mentation (DREAM) dataset
+=======================================
+
+
+Dataset information
+-------------------
+
+- Common name: Tononi Serial Awakenings
+- Full name: N/A
+- Authors: Francesca Siclari, Benjamin Baird, Lampros Perogamvros, Melanie Boly, Joshua LaRocque, Giulio Tononi
+- Location: Madison, WI
+- Year: 2016
+- Set ID: 13
+- Amendment: 1
+- Corresponding author ID: 17
+
+Previous publications:  
+Siclari et al Nature Neuroscience 2017
+
+Correspondence:  
+Lampros Perogamvros (email: lampros.perogamvros@unige.ch)
+
+
+Metadata
+--------
+
+- Key ID: 18
+- Date entered: 2023-07-18T09:17:08+00:00
+- Number of samples: 261
+- Number of subjects: 36
+- Proportion REM: 0%
+- Proportion N1: 0%
+- Proportion N2: 100%
+- Proportion W: 0%
+- Proportion experience: 42%
+- Proportion no-experience: 39%
+- Proportion healthy: 100%
+- Provoked awakening: Yes
+- Time of awakening: Night
+- Form of response: Free
+- Date approved: 2023-07-18T09:26:37+00:00
+
+
+How to decode data files
+------------------------
+
+File ""Data/HydroCelGSN256v10.sfp"" gives the channel locations for all PSGs. It is a BESA surface point coordinate or EGI-xyz Cartesian coordinate file (.sfp); details about this format may be found at http://wiki.besa.de/index.php?title=Working_With_Additional_Files&oldid=5145.
+
+
+### Treatment group codes ###
+
+N/A
+
+
+Experimental description
+------------------------
+
+Procedure. The procedure used in this study has been described in detail in a previous publication9. Awakenings in the sleep laboratory were performed at pseudorandom intervals, irrespective of sleep stage, using a computerized sound that lasted 1.5 s, which was administered through E-Prime (Psychology Software Tools, Pittsburgh, PA). Subjects were instructed to signal that they had heard the alarm sound and to lie quietly on their back. They then underwent a structured interview via intercom about their mental activity that lasted between 20 s and 3.5 min, depending on whether the subject reported a conscious experience and had to answer additional questions related to the content. Signed informed consent was obtained from all participants before the experiment, and ethical approval for the study was obtained from the University of Wisconsin–Madison Institutional Review Board. Data collection and analysis were not performed blind to the conditions of the experiments.
+
+Study participants in experiment 1. Thirty-two healthy subjects (12 males, age 46 ± 13.3 years (mean ± s.d.), range 24–65 years), selected from a group of 69 subjects participating in a larger research project in our laboratory, were included in this experiment. Subjects were randomly selected from the subset of all participants that had at least one DE and NE report in NREM sleep during the same night. Among the 240 awakenings performed in these 32 subjects, 5 had to be excluded for technical problems and 2 because subjects were too somnolent upon awakening to answer questions reliably. Comparisons between DEWR–NE conditions and DE–DEWR conditions were performed in the subset of these participants (N = 20) that had all three types (DE, DEWR, NE) of report during the same night. In REM sleep, only 6 of the 69 participants presented both DE and NE. They were all included in the analysis.
+
+Sleep recordings. Recordings were made at the Wisconsin Center for Sleep and Consciousness. They were performed using a 256-channel high-density EEG (hd-EEG) system (Electrical Geodesics, Inc., Eugene, Ore.). Four of the 256 electrodes placed at the outer canthi of the eyes were used to monitor eye movements; additional polysomnography channels were used to record submental electromyography. Sleep scoring was performed over 30-s epochs, according to standard criteria.
+
+
+### DREAM categorization procedure ###
+
+We have converted dream categories in Records.csv as DE = Experience, DEWR = Experience without recall, NE = No Experience.
+
+
+Technical details
+-----------------
+
+N/A
+
+
+### Data acquisition ###
+
+EGI Geodesic with concurrent Alice PSG
+
+
+### Data preprocessing ###
+
+Raw data (no preprocessing)
+","Madison, WI",2016,Siclari et al Nature Neuroscience 2017,Lampros Perogamvros (email: lampros.perogamvros@unige.ch),#N/A,1689672397,Open,FALSE,FALSE
+19,17,0,1678790959,Aamodt_evening_sleep,#N/A,16,https://doi.org/10.6084/m9.figshare.22085597.v1,"Arnfinn Aamodt, André Sevenius Nilsen, Johan Frederik Storm, Bjørn Erik Juel",158,27,0.0126582,0.0632911,0.601266,0.0443038,0.734177,0.0949367,1,Yes,Night,Structured,"Dream EEG and Mentation (DREAM) dataset
+=======================================
+
+
+Dataset information
+-------------------
+
+- Common name: Aamodt_evening_sleep
+- Full name: N/A
+- Authors: Arnfinn Aamodt, André Sevenius Nilsen, Johan Frederik Storm, Bjørn Erik Juel
+- Location: Oslo, Norway
+- Year: 2022
+- Set ID: 17
+- Amendment: 0
+- Corresponding author ID: 16
+
+Previous publications:  
+1) Aamodt, A., Nilsen, A.S., Thürer, B., Moghadam, F.H., Kauppi, N., Juel, B.E. and Storm, J.F. (2021) ‘EEG Signal Diversity Varies With Sleep Stage and Aspects of Dream Experience’, Frontiers in psychology, 12, p. 655884.
+2) Aamodt, A., Sevenius Nilsen, A., Markhus, R., Kusztor, A., HasanzadehMoghadam, F., Kauppi, N., Thürer, B., Storm, J.F. and Juel, B.E. (2023) ‘EEG Lempel-Ziv complexity varies with sleep stage, but does not seem to track dream experience’, Frontiers in human neuroscience, 16. Available at: https://doi.org/10.3389/fnhum.2022.987714.
+
+Correspondence:  
+Bjørn E Juel (b.e.juel@medisin.uio.no)
+
+
+Metadata
+--------
+
+- Key ID: 19
+- Date entered: 2023-03-14T10:49:19+00:00
+- Number of samples: 158
+- Number of subjects: 27
+- Proportion REM: 1%
+- Proportion N1: 6%
+- Proportion N2: 60%
+- Proportion W: 4%
+- Proportion experience: 73%
+- Proportion no-experience: 9%
+- Proportion healthy: 100%
+- Provoked awakening: Yes
+- Time of awakening: Night
+- Form of response: Structured
+- Date approved: 2023-10-18T13:58:08+00:00
+
+
+How to decode data files
+------------------------
+
+The files in the PSG directory are named according to the subjectID and the CaseNumber for each awakening. For example the file 10_0103.edf is associated with the third awakening (case 0103) from subject 10.
+
+NOTE: PSG files contain a period of silence at the end of the recording due to a limitation of the data format.
+
+EDF+ files contain annotations without further explanation.
+
+
+### Treatment group codes ###
+
+No treatment groups
+
+
+Experimental description
+------------------------
+
+From publication (Aamodt et al 2023):
+
+The experimental paradigm and the overall methodological approach were largely similar to our previous study of morning sleep in fully sleep-deprived participants (Aamodt et al., 2021), except for the differences briefly summarized in the Section “1 Introduction.” For readability and completeness, this section includes some repetitions of the description in Aamodt et al. (2021).
+
+2.1. Experimental paradigm  
+Inspired by Siclari et al. (2013), we employed an evening sleep paradigm with remotely monitored sleep EEG and repeated awakenings, each followed by an immediate dream report.
+
+Before the day of the sleep experiment, we met with the participants, explained the experiment, and showed them the sleep lab.
+
+Participants were told to go to bed at their usual bedtime, and to get up 3 h earlier than their usual rising time, before meeting in the lab (partially sleep-deprived) at 19:30 in the evening. They were instructed to avoid alcohol (and drugs) the last 48 h before the experiment, and caffeine the last 12 h before the experiment. Prior to the experiment, the questionnaire used for the dream reports was emailed to all participants, together with detailed explanations of how to interpret each question. Participants were reminded to read the descriptions and instructions, and to practice answering the questions.
+
+After meeting in the lab on the day of the experiment, the EEG cap was mounted on the participant’s head while we went through the dream questionnaire, cleared up any lingering uncertainties and did a practice run through the questions. We also reassured the participants that we had already accounted for the fact that some participants will not be able to sleep while planning the experiment, and that there were no wrong answers to the questions, as long as they were honest. Toward the end of the preparation, we made sure to start dimming the lights and instructed the participants to try to go to the bathroom.
+
+The researchers then left the room, and lights were turned off. Via a remote audio connection, participants were first told to lie still with eyes open (EO) for 5 min of awake EEG recording. Second, they were told to repeat the exercise with eyes closed (EC), for another 5 min of awake EEG recording, interrupted by an electronic alarm and subsequent awake (baseline) experience report using the dream questionnaire.8 Finally, they were told that they were free to fall asleep.
+
+While the participants slept, EEG was remotely monitored from another room. Participants were intermittently awakened, followed by immediate dream experience reports. In order to get many awakenings within the same sleep stage and increase the statistical power of the within-state analysis, most awakenings were performed during NREM2 sleep.9 In our previous morning sleep study, we focused on NREM2 sleep in an attempt to optimize the balance of dream and non-dream awakenings. While we in fact had very few non-dream awakenings in our first study, other sleep stages were not much better, and our experience was that many participants were able to reach the (intermediate depth) sleep stage NREM2 fairly quickly, wake up easily enough and give clear reports, and fall back asleep without too much trouble. Hence, we chose to keep the focus on NREM2 sleep.
+
+2.2. Participants and data  
+We recruited 27 participants for the sleep experiment. Five minutes of EO/EC resting EEG trials were recorded before the start of the sleep experiment (28 EO trials, 28 EC trials).10 We recorded 164 sleep trials using the intermittent awakening paradigm described above, where sleep trial refers to the period from the participant was told to go to sleep until they were awakened by the alarm.11 From all the recordings, we obtained a total of 6,071 scored 30-s sleep epochs (Wake = 2,070, NREM1 = 1,469, NREM2 = 2,130, NREM3 = 356, REM = 46, see Figure 1A), used for the analysis of how LZC varied with sleep stage. There were 27 subjective reports from the eyes closed trials at the start of the experiment (Wake = 18, NREM1 = 7, NREM2 = 2, see Figure 1B), and 161 reports from the subsequent sleep trials (Wake = 7, NREM1 = 10, NREM2 = 97, NREM3 = 45, REM = 2, see Figure 1B).12 For the analysis of whether LZC, within the same sleep stage, was different between awakenings with no reported experience (NE), dream experience without recall (DEWR), and dream experience (DE) with explicit recall of contents, we used the 99 awakenings from NREM2 sleep (NE = 10, DEWR = 16, DE = 73, see Figure 1C). Finally, for the 73 NREM2 DE awakenings, we analyzed the relationship between LZC and subjective ratings of dream experience diversity and vividness, as well as ratings of how perceptual the dream was (see Figure 1D for distribution of NREM2 dream content scores).
+
+2.3. Recording and processing of EEG  
+A total of 62 EEG channels and two electrooculogram (EOG) channels, referenced to an electrode placed medially on the forehead, were recorded at a 1,000 Hz sampling rate using two 32 channel amplifiers (BrainAmp DC, Brain Products GmbH, Gilching, Germany). EOG channels were placed in the American Academy of Sleep Medicine (AASM) recommended E1 and E2 positions below and above the outer canthi (Berri et al., 2018). Two separate bipolar electrodes on either side of the mentalis muscle on the front of the chin were used to record the electromyogram (EMG).
+
+The time of the electronic alarm was recorded during the experiment by manually pressing a button to insert a marker into the EEG recording right before triggering the alarm, and an adjusted (if necessary) time of awakening was determined by offline inspection of the EEG recording. The beginning of the recording was then cropped to get a whole number of sleep epochs, here used to denote the 30 s segments of EEG conventionally used for scoring of sleep stages.
+
+For the purpose of sleep scoring, we exported a separate copy of the recording with the recommended (F4-M1, C4-M1, O2-M1) and backup (F3-M2, C3-M2, O1-M2) AASM bipolar leads. Sleep scoring was performed (by RM) according to “The AASM Manual for Scoring of Sleep and Related Events version 2.5” (Berri et al., 2018), and the hypnograms were then reviewed by another researcher (AAa).
+
+After cropping the original EEG recording to a whole number of sleep epochs before time of awakening, bad segments of the data (e.g., containing large muscle artifacts, movement, etc.) were identified by manual inspection and marked. Some recordings contained large jumps due to DC correction performed mid-recording. These jumps were interpolated to avoid large ringing artifacts from subsequent temporal filters, and the segment of EEG containing the jump was excluded from subsequent analysis. Data was then exported for automatic pre-processing using the EEGLAB MATLAB toolbox (Delorme and Makeig, 2004).
+
+First, data was down-sampled to 250 Hz using a mild anti-aliasing filter. Bad channels were automatically detected and interpolated, and robust average re-referencing was performed using the EEG-Clean-Tools EEGLAB-plugin (PREP-pipeline) (Bigdely-Shamlo et al., 2015).
+
+Afterward, bad segments were (temporarily) removed from the recording, and data was high-pass filtered at 0.75 Hz, before running independent component analysis (ICA) using the extended infomax algorithm (Bell and Sejnowski, 1995). The ICLabel EEGLAB plugin (Pion-Tonachini et al., 2019) was used to automatically assign probable sources (brain, muscle, eye, heart, line nose, channel noise, or other) to each independent component. Independent components were then rejected based on their ICLabel-assigned probabilities if they met any of the following three criteria:
+
+1. The most likely heart component of the recording and assigned probability of heart being the source of the component higher than 10%,
+
+2. Less than 15% assigned probability of brain being the source of the component, or
+
+3. Combined assigned probability of stemming from non-brain sources was more than half the assigned probability that the component came from brain sources.
+
+After ICA-cleaning, bad segments were re-inserted into the recording (this was only done to keep original length of recording and timing of events, as calculation windows intersecting bad segments were later dropped), and data was low-pass filtered at 40 Hz.
+
+Electroencephalography recordings were re-imported into MNE Python, and cleaning performance was manually inspected. A few recordings still had very pronounced heart artifacts, probably because the heart artifact had been split into several independent components during ICA-cleaning, and only one of these had been rejected by the heuristic rules above. For these recordings, IC-components were manually re-inspected and remaining heart components were rejected. Finally, any remaining bad segments of the recordings were marked for rejection, and remaining bad channels were interpolated.
+
+2.4. Dream report questionnaire  
+Immediately after each awakening, participants were asked to report and rate any dream experience they might have had. To keep awakenings brief, we used only the abbreviated short form prompts shown in parentheses in the dream questionnaire below (see Supplementary materials for the full text sent to participants before the experiment):
+
+1. What was the last thing going through your mind? (Last experience?)
+
+Describe the most recent experience (for example image, thought or emotion) which you had before the alarm sound (but after falling asleep), if you experienced anything at all–it is just as fine if you did not experience anything. By experience we mean “any kind of mental activity,” including thoughts, dreams, perceptions, emotions, etc. (e.g., if asked while being awake, the last thing going through your mind might just be the scene you see in front of you).
+
+2. What was the last emotion you had? (Last emotion?)
+
+Describe your most recent feelings or emotions (for example anger, disgust, fear, happiness, sadness, surprise etc.) which you had before the alarm sound (but after falling asleep), if you experienced any emotions at all–it is just as fine if you did not experience any emotions.
+
+3. How diverse was your experience on a scale from 0 to 10? (Diversity 0–10?)
+
+Please rate your experience from 0 to 10, where 0 means “I did not experience anything at all” and 10 means “my experience was just as diverse or more diverse than my normal waking experience.” The more different emotions, sensory impressions, objects, actions, thoughts, your experience consists of, the more diverse (rich, varied) we consider the experience to be.
+
+4. How vivid was your experience on a scale from 0 to 10? (Vividness 0–10?)
+
+Please give a rating of your experience from 0 to 10, where 0 means “I did not experience anything at all” and 10 means “my experience was just as vivid or more vivid than my normal waking experience.” The clearer and more life-like your experience, the more vivid (as opposed to blurry and diffuse) we consider the experience to be.
+
+5. How perceptual was your experience on a scale from 0 to 10? (Perceptual 0–10?)
+
+Please rate the extent to which your experience was perceptual in character. In this context, perceptual refers to any visual, auditory, olfactory, or bodily experience/imagery that you had.
+
+6. How thought-like was your experience on a scale from 0 to 10? (Thought-like 0–10?)
+
+Please rate how thought-like your experience was. Thought-like refers to reasoning or other mental processes not necessarily related to/accompanied by perceptual experiences/imagery (or inner speech).
+
+Based on the answer to Question 1, awakening reports were classified as indicating no experience (NE), dream experience without recall (DEWR), or dream experience (DE). Subjective reports that included explicit recall of any dream contents at all, were scored as DE. If the participant reported having had a dream, but were unable to remember any specific contents, the report was scored as DEWR. If necessary, participants were asked to disambiguate between NE and DEWR, before continuing the awakening interview.
+
+While interesting, we chose to exclude Question 2 about the last emotion before awakening from further analysis, because we were unsure whether all (or even most) of these answers referred to the period right before the awakening, rather than the time of questioning (a large portion of the answers mentioned feeling tired and annoyed). Question 6 was only included in the exploratory analysis, since we did not feel that a clear hypothesis could be derived about how thought-like dream experiences should relate to EEG complexity.
+
+
+### DREAM categorization procedure ###
+
+The original experiment categorized the dream reports according to the DREAM definitions.
+
+
+Technical details
+-----------------
+
+The data include a single EMG channel (called EMG1), which is a bipolar derivation of the standard LAT and RAT electrodes placed on the chin of the sleeping subject.
+
+The data include two EOG channels (called EOGu and EOGl), which were placed in the American Academy of Sleep Medicine (AASM) recommended E1 and E2 positions below (l for lower) and above (u for upper) the lateral canthi. 
+
+
+### Data acquisition ###
+
+See published manuscripts
+
+
+### Data preprocessing ###
+
+Data were rereferenced to a common average reference and zero centered to adjust for the DC offset. Raw data can be requested in accordance with statements in published manuscripts.
+","Oslo, Norway",2022,"1) Aamodt, A., Nilsen, A.S., Thürer, B., Moghadam, F.H., Kauppi, N., Juel, B.E. and Storm, J.F. (2021) ‘EEG Signal Diversity Varies With Sleep Stage and Aspects of Dream Experience’, Frontiers in psychology, 12, p. 655884.
+2) Aamodt, A., Sevenius Nilsen, A., Markhus, R., Kusztor, A., HasanzadehMoghadam, F., Kauppi, N., Thürer, B., Storm, J.F. and Juel, B.E. (2023) ‘EEG Lempel-Ziv complexity varies with sleep stage, but does not seem to track dream experience’, Frontiers in human neuroscience, 16. Available at: https://doi.org/10.3389/fnhum.2022.987714.",Bjørn E Juel (b.e.juel@medisin.uio.no),#N/A,1697637488,Open,FALSE,TRUE
+20,18,0,1678790815,Aamodt_morning_sleep,#N/A,15,https://doi.org/10.6084/m9.figshare.22085627.v1,"Arnfinn Aamodt, André Sevenius Nilsen, Bjørn Erik Juel, Johan Frederik Storm",97,16,0.0103093,0.154639,0.639175,0.0721649,0.618557,0.14433,1,Yes,Morning,Structured,"Dream EEG and Mentation (DREAM) dataset
+=======================================
+
+
+Dataset information
+-------------------
+
+- Common name: Aamodt_morning_sleep
+- Full name: N/A
+- Authors: Arnfinn Aamodt, André Sevenius Nilsen, Bjørn Erik Juel, Johan Frederik Storm
+- Location: Oslo, Norway
+- Year: 2020
+- Set ID: 18
+- Amendment: 0
+- Corresponding author ID: 15
+
+Previous publications:  
+1) Aamodt, A., Nilsen, A.S., Thürer, B., Moghadam, F.H., Kauppi, N., Juel, B.E. and Storm, J.F. (2021) ‘EEG Signal Diversity Varies With Sleep Stage and Aspects of Dream Experience’, Frontiers in psychology, 12, p. 655884.
+2) Aamodt, A., Sevenius Nilsen, A., Markhus, R., Kusztor, A., HasanzadehMoghadam, F., Kauppi, N., Thürer, B., Storm, J.F. and Juel, B.E. (2023) ‘EEG Lempel-Ziv complexity varies with sleep stage, but does not seem to track dream experience’, Frontiers in human neuroscience, 16. Available at: https://doi.org/10.3389/fnhum.2022.987714.
+
+Correspondence:  
+Johan F Storm (j.f.storm@medisin.uio.no)
+
+
+Metadata
+--------
+
+- Key ID: 20
+- Date entered: 2023-03-14T10:46:55+00:00
+- Number of samples: 97
+- Number of subjects: 16
+- Proportion REM: 1%
+- Proportion N1: 15%
+- Proportion N2: 64%
+- Proportion W: 7%
+- Proportion experience: 62%
+- Proportion no-experience: 14%
+- Proportion healthy: 100%
+- Provoked awakening: Yes
+- Time of awakening: Morning
+- Form of response: Structured
+- Date approved: 2023-10-18T14:01:47+00:00
+
+
+How to decode data files
+------------------------
+
+The files in the PSG directory are named according to the subjectID and the CaseNumber for each awakening. For example the file 01_0103.edf is associated with the third awakening (case 0103) from subject 01.
+
+NOTE: PSG files contain a period of silence at the end of the recording due to a limitation of the data format.
+
+EDF+ files contain annotations without further explanation.
+
+
+### Treatment group codes ###
+
+No treatment groups
+
+
+Experimental description
+------------------------
+
+From methods section of publication (Aamodt et al 2021):
+
+The Regional Committees for Medical and Health Research Ethics approved this research project (ref. 2018/1640), and informed consent was collected before participation.
+
+We employed a sleep study paradigm with serial awakenings and dream reports, similar to Siclari et al. (2013), but our experiments were performed in the morning, after a night of sleep deprivation. Participants were instructed to avoid caffeine in the afternoon the day before the experiment, to stay awake through the whole night, and to meet in the lab at 7 a.m. Before the experiment started, participants received an explanation of the questions they would be asked when awakened by the alarm. Experimenters stayed in the room throughout the experiment to monitor the EEG recording. Background sounds were masked by brown noise played through ear plugs in the participant's ears. The participant was intermittently awakened by an electronic alarm and immediately asked about any dream experience they might have had right before the alarm sound, by the prompt: “What was the last thing going through your mind?”. Awakenings were classified as no experience (NE), dream experience without recall (DEWR), or dream experience (DE). If the participant reported experiencing something, they were also asked to rate their experience on a five-point scale from exclusively thought-like (thinking or reasoning, with no sensory content) to exclusively perceptual (vivid sensory content, without thinking or reasoning) (Siclari et al., 2013). To optimize the balance of NE and DE awakenings for within-state analysis, awakenings were mainly performed during NREM2 sleep.
+
+We recruited 17 healthy, non-smoking participants between 18 and 35 years, with normal sleep habits. One participant was excluded from the analysis due to inability to sleep during the experiment. For each of the 16 remaining participants, we recorded EEG from multiple sleep trials, defined as the period from the participant was told that they could go (back) to sleep, until they were (again) awakened by the alarm, for a total of 97 sleep trials. For each sleep trial, we marked non-overlapping sleep epochs, defined as 30 s segments of EEG, aligned to the time of awakening. We scored the sleep stage of the last ten sleep epochs before awakening according to the AASM Manual for Scoring of Sleep and Associated Events (Berri et al., 2018), for a total of 9606 scored sleep epochs (wake = 72, NREM1 = 206, NREM2 = 619, NREM3 = 53, REM = 10). There were 62 awakenings (NE = 9, DEWR = 9, DE = 41, unclear/missing report = 3) from NREM2 sleep, which were used for within-state analysis of whether signal diversity was different for dreaming vs. non-dreaming. Of these, only the 41 reports of dream experiences (exclusively thought-like = 3, mostly thought-like = 11, equally perceptual and thought-like = 10, mostly perceptual = 7, exclusively perceptual = 8, unclear/missing report = 2) from NREM2 sleep were included in the analysis of the thought-perceptual dimension of dream content.
+
+EEG was sampled at 1,000 Hz, using two 32 channel amplifiers to record 62 EEG channels and two electrooculogram (EOG) channels (BrainAmp DC, Brain Products GmbH, Gilching, Germany). The reference and ground electrodes were placed medially on the forehead. Electromyogram (EMG) was recorded by two bipolar electrodes on the chin.
+
+Data was processed using MNE Python and EEGLAB (Delorme and Makeig, 2004; Gramfort et al., 2013). After sleep scoring and marking of bad segments, datasets were automatically preprocessed using the EEG-Clean-Tools EEGLAB-plugin (Bigdely-Shamlo et al., 2015). Independent component analysis (ICA) was performed using the extended infomax algorithm (Bell and Sejnowski, 1995), and bad components were rejected by heuristic rules based on the source probabilities assigned by the IClabel-plugin (Pion-Tonachini et al., 2019). After band-pass filtering (0.75–40 Hz), the data was Laplace transformed by a spherical spline algorithm (Perrin et al., 1989) implemented in the CSD Toolbox (Kayser and Tenke, 2006; Fitzgibbon et al., 2015), and imported back into Python.
+
+EEG was divided into regular 8 s windows with 7 s overlap. LZC, ACE and SCE was calculated for each 8 s window (Schartner et al., 2015), using a selection of 12 EEG channels (AF3, AF4, FC5, Fz, FC6, C1, C2, CP5, Pz, CP6, PO3, PO4) covering large parts of the scalp (Figure 1A), and then averaged over each 30 s sleep epoch. The calculation was repeated for a selection of 12 frontal channels (AF3, Fpz, AF4, F7, F1, F2, F8, FC3, FCz, FC4, C1, C2) and a selection of 12 posterior channels (C5, CPz, C6, TP7, CP3, CP4, TP8, P5, POz, P6, O1, O2).
+
+All three diversity measures are based on the complex valued analytic representation of the recorded EEG signal. Before calculating LZC, the analytic signal for each window was binarized by thresholding on the single-channel median absolute value. All the observations in an window were concatenated together timepoint by timepoint to form one long binary string. The LZC algorithm itself can be viewed as a way to compress such a binary string into a shorter description, by exploiting repeating patterns. The algorithm works by iteratively building a dictionary of unique substrings, that allows reconstruction of the full string. The length of the resulting dictionary serves as a measure of how complex the original string is. Normalizing by the dictionary length for a randomly permuted version of the original binary string, yields a LZC value between zero and one (almost always).
+
+ACE used the same binarization of the analytical signal as LZC, but we did not concatenate observations together. Instead, the 12 channel binary vectors for each timepoint, which we may call amplitude coalitions, are themselves considered states. Within each window, we approximate the probability distribution of these states by the observed incidence of each amplitude coalition. The ACE is the Shannon entropy of this estimated probability distribution, normalized by the entropy for a randomly permuted copy of the original binary matrix.
+
+For SCE, we (iteratively) choose a single reference channel, and we binarize each of the remaining 11 channels by thresholding on the absolute phase difference of their analytic signal relative to the current reference channel (at ~45°). The 11 channel binary vectors for each timepoint may be considered synchrony coalitions of the system, describing the state of the system in terms of which channels are currently in phase with the reference channel. Just like for ACE, we can estimate the probability distribution for the synchrony coalitions (relative to the current reference), and calculate the normalized Shannon entropy based on this distribution. The overall SCE is then obtained by averaging over the 12 different choices of reference channel. For further information about the calculation of LCZ, ACE and SCE, see (Schartner, 2017).
+
+Statistical analysis was performed using IBM SPSS version 26. The relationship between sleep stage and signal diversity was assessed using generalized linear mixed models (GLMMs) with sleep stage as a fixed factor7 (including intercept), and participant and trial (nested within participants) as random intercepts. Epochs were entered as repeated measures with heterogeneous first-order autoregressive residual variance-covariance.
+
+For awakenings in NREM2 sleep, the relationship between experience report (NE, DEWR or DE) and signal diversity of the last sleep epoch before awakening was assessed using GLMMs with experience classification as the fixed factor (including intercept) and subject as random intercept.
+
+Finally, for NREM2 awakenings with reported dream experience (DE), the correlation between subjective ratings of experience on a five-point scale from exclusively thought-like to exclusively perceptual, and frontal and posterior signal diversity were assessed using GLMMs with thought-perceptual rating as a fixed continuous covariate (including intercept) and subject as random intercept.
+
+We used the inheritance procedure (Goeman and Finos, 2012) to adjust for multiple comparisons and control the family-wise error rate. Starting with significance level α = 0.05, this yielded an adjusted significance level α/12 = 0.0042 for the effect of sleep stage, experience classification and thought-perceptual rating on signal diversity, and α/(12·10) = 0.00042 for each of the 10 pairwise comparisons between different sleep stages.
+
+For further details, see Supplementary Material.
+
+
+### DREAM categorization procedure ###
+
+The original experiment categorized the dream reports according to the DREAM definitions.
+
+
+Technical details
+-----------------
+
+The data include a single EMG channel (called EMG1), which is a bipolar derivation of the standard LAT and RAT electrodes placed on the chin of the sleeping subject.
+
+The data include two EOG channels (called EOGu and EOGl), which were placed in the American Academy of Sleep Medicine (AASM) recommended E1 and E2 positions below (l for lower) and above (u for upper) the lateral canthi.
+
+
+### Data acquisition ###
+
+See published manuscripts
+
+
+### Data preprocessing ###
+
+Data were rereferenced to a common average reference and zero centered to adjust for the DC offset. Raw data can be requested in accordance with statements in published manuscripts.
+","Oslo, Norway",2020,"1) Aamodt, A., Nilsen, A.S., Thürer, B., Moghadam, F.H., Kauppi, N., Juel, B.E. and Storm, J.F. (2021) ‘EEG Signal Diversity Varies With Sleep Stage and Aspects of Dream Experience’, Frontiers in psychology, 12, p. 655884.
+2) Aamodt, A., Sevenius Nilsen, A., Markhus, R., Kusztor, A., HasanzadehMoghadam, F., Kauppi, N., Thürer, B., Storm, J.F. and Juel, B.E. (2023) ‘EEG Lempel-Ziv complexity varies with sleep stage, but does not seem to track dream experience’, Frontiers in human neuroscience, 16. Available at: https://doi.org/10.3389/fnhum.2022.987714.",Johan F Storm (j.f.storm@medisin.uio.no),#N/A,1697637707,Open,FALSE,TRUE
+21,19,0,1705901440,"Kumral et al., 2023",#N/A,19,https://doi.org/10.60493/31mg4-mfq53,"Deniz Kumral, Jessica Palmieri, Steffen Gais, Monika Schönauer",66,19,0.136364,0.0909091,0.636364,0,0.636364,0.363636,1,Yes,Mixed,Free,"Dream EEG and Mentation (DREAM) dataset
+=======================================
+
+
+Dataset information
+-------------------
+
+- Common name: Kumral et al., 2023
+- Full name: N/A
+- Authors: Deniz Kumral, Jessica Palmieri, Steffen Gais, Monika Schönauer
+- Location: Albert-Ludwigs-Universität Freiburg, Eberhard Karls Universität Tübingen, Ludwig-Maximilians-Universität München
+- Year: 2013
+- Set ID: 19
+- Amendment: 0
+- Corresponding author ID: 19
+
+Previous publications:  
+Kumral, D., Palmieri, J., Gais, S., & Schoenauer, M. (2023). Daytime experiences shape neural activity and dream content in the sleeping brain. bioRxiv, 2023-07.
+
+Correspondence:  
+M. Schönauer, Institute of Psychology, Neuropsychology, University of Freiburg; Freiburg im Breisgau, Germany, phone: +49 761 203 2463, Engelbergerstraße 41, Freiburg im Breisgau, 79106, Germany
+
+
+Metadata
+--------
+
+- Key ID: 21
+- Date entered: 2024-01-22T05:30:40+00:00
+- Number of samples: 66
+- Number of subjects: 19
+- Proportion REM: 0.136363636
+- Proportion N1: 0.090909091
+- Proportion N2: 0.636363636
+- Proportion W: 0
+- Proportion experience: 0.636363636
+- Proportion no-experience: 0.363636364
+- Proportion healthy: 1
+- Provoked awakening: Yes
+- Time of awakening: Mixed
+- Form of response: Free
+- Date approved: 2024-01-25T05:53:22+00:00
+
+
+How to decode data files
+------------------------
+
+* EEG files: All the EEG data are already transformed into "".edf"" format from original Brainvision files. We extracted sleep data from the point after we stopped the audiobook (see: procedure) until the time right before awakening. Due to the resolution of sleep scoring for this dataset (30 secs), up to one minute of data before the actual point of waking up may thus have been cut from the files.
+
+* Dream Reports: Dream data is reported using Excel files in .csv (UTF-8) format.
+
+
+### Treatment group codes ###
+
+N/A
+
+
+Experimental description
+------------------------
+
+Participants  
+20 participants (10 male) aged 20 – 30 years (25.5 ± 2.7) completed the study. They were healthy, nonsmokers, and did not ingest any alcohol, caffeine or medication other than oral contraceptives on the days of the experiment. The participants reported sleeping between 6 and 10 hours per night, had a regular circadian rhythm, and were neither extreme morning nor evening chronotypes, as measured by the Munich Chronotype Questionnaire. They had no shift work or long-distance flights during the six weeks preceding the experiment and did not have any sleep-related pathology. All participants were right-handed, confirmed by the Edinburgh Handedness Questionnaire. The experiment was approved by the local ethics committee (Department of Psychology, Ludwig-Maximilians-Universität München). Informed consent was obtained from all subjects. One participant had to be excluded because due to a technical problem with the audiobook. 
+
+Procedure  
+All participants visited the sleep laboratory twice, once for an adaptation night to become familiar with the experimental procedure and environment (i.e., wearing an EEG cap), and again for the night of the main experiment. On the experimental night, participants fell asleep while listening to one of four randomly assigned audiobooks. Participants had not read the book or listened to the audiobook prior to the experiment. Participants were instructed to remember the content of the audiobook. The audiobook was turned off once they reached consolidated stage 2 sleep. Participants were awoken multiple times during the night, approximately every 90 minutes, to answer questions regarding their cognitive experiences during sleep (i.e. dreaming) and about the content of the audiobook passage they had listened to. After these tests, they continued listening to the same audiobook while falling asleep again. After each 90-min sleep cycle, participants were awoken and reported their cognitive experience (i.e., dreaming) in a standardized dream recall procedure. They were asked up to three times what was going through their minds immediately before waking up. If the participants were able to remember any dream, we instructed them that they should proceed to give a detailed report on who participated in the dream, where the dream was set, and what happened in the dream. We recorded their full dream report, asking up to three times “Can you recall more?”
+
+
+### DREAM categorization procedure ###
+
+In this study, we define a “dream” as any mental experience recalled from sleep. We did not assess whether participants might have been dreaming, but failed to recall the dream. Therefore, the dream reports are coded as:
+* 0 = no experience
+* 2 = experience
+
+
+Technical details
+-----------------
+
+N/A
+
+
+### Data acquisition ###
+
+Sleep EEG was recorded using an active 128 channel Ag/AgCl-electrode system (BrainAmp MR with ActiCap, Brain Products, Gilching, Germany) with a 1 kHz sampling frequency and a high-pass filter of 0.1 Hz. Electrodes were positioned according to the extended international 10–20 electrode system. 
+
+
+### Data preprocessing ###
+
+The EEG data is not preprocessed. As mentioned earlier, we extracted sleep data from the point after we stopped the audiobook (see: procedure) until the time right before awakening. Due to the resolution of sleep scoring for this dataset (30 secs), up to one minute of data before the actual point of waking up may thus have been cut from the files.
+","Albert-Ludwigs-Universität Freiburg, Eberhard Karls Universität Tübingen, Ludwig-Maximilians-Universität München",2013,"Kumral, D., Palmieri, J., Gais, S., & Schoenauer, M. (2023). Daytime experiences shape neural activity and dream content in the sleeping brain. bioRxiv, 2023-07.","M. Schönauer, Institute of Psychology, Neuropsychology, University of Freiburg; Freiburg im Breisgau, Germany, phone: +49 761 203 2463, Engelbergerstraße 41, Freiburg im Breisgau, 79106, Germany",#N/A,1706162002,Open,FALSE,TRUE
+22,20,0,1724919414,MEG Kyushu,#N/A,20,https://doi.org/10.6084/m9.figshare.27116590.v1,"Yuki Motomura*, Hiroshige Takeichi*, Mochine Ishii, Takashi Tsutsumi, Yuri Kawabata, Naoko Takahashi, Shota Hosogai, Hiroshi Shigeto, Chihiro Hiramatsu",31,1,0,0.709677,0.0645161,0.129032,0.774194,0,1,Yes,Evening,Structured,"Dream EEG and Mentation (DREAM) dataset
+=======================================
+
+
+Dataset information
+-------------------
+
+- Common name: MEG Kyushu
+- Full name: N/A
+- Authors: Yuki Motomura*, Hiroshige Takeichi*, Mochine Ishii, Takashi Tsutsumi, Yuri Kawabata, Naoko Takahashi, Shota Hosogai, Hiroshi Shigeto, Chihiro Hiramatsu
+- Location: Kyushu University, Fukuoka, Japan
+- Year: 2023-2024
+- Set ID: 20
+- Amendment: 0
+- Corresponding author ID: 20
+
+Previous publications:  
+N/A
+
+Correspondence:  
+Chihiro Hiramatsu (email: chihiro@design.kyushu-u.ac.jp)
+
+
+Metadata
+--------
+
+- Key ID: 22
+- Date entered: 2024-08-29T08:16:54+00:00
+- Number of samples: 31
+- Number of subjects: 1
+- Proportion REM: 0%
+- Proportion N1: 71%
+- Proportion N2: 6%
+- Proportion W: 13%
+- Proportion experience: 77%
+- Proportion no-experience: 0%
+- Proportion healthy: 100%
+- Provoked awakening: Yes
+- Time of awakening: Evening
+- Form of response: Structured
+- Date approved: 2024-09-12T05:51:10+00:00
+
+
+How to decode data files
+------------------------
+
+If subjects were already awake when they were awakened, their experience was classified as ""Unknown (-4)"" in the ""Experience"" column of the Records.csv file.
+
+CSV files, under the ""Data/ChannelLocation"" directory, give the channel locations of the MEG channels of each corresponding recording, extracted from the original FIFF files. The Elekta/MEGIN/Neuromag MEG system uses four head position indicator coils to measure the exact head position in the helmet, and the coordinates that this measurement provides are stored in FIFF files after a noise-reduction filter (i.e., ""maxfilter"") is applied. As the head moves (relative to the earth), it is represented as if the sensors move in the head-centered coordinate.
+
+
+### Treatment group codes ###
+
+N/A
+
+
+Experimental description
+------------------------
+
+Participants  
+Participants between 18 and 40 years old in good mental health were recruited through advertisements on campus. Respondents were excluded from enrolling if they were engaged in night shift work or wearing orthodontic appliances. Participants were asked to wake up early in the morning and not to take caffeinated beverage on the day of the experiment, and received monetary compensation after the experiment. The study was approved by the Ethics Review Committee of the Faculty of Design, Kyushu University (approval no. 598-1), and written informed consent was obtained from all participants.
+
+Procedure  
+The experiment was conducted in the evening in a magnetically shielded room for magnetoencephalography (MEG) measurement at Kyushu University Hospital. Participants lay down and started their nap around 7 pm. The participants’ sleep stage was monitored by online EEG and EOG. Upon observing continuous theta range slow waves for approximately 8 seconds or detecting solitary vertex sharp wave dominantly at the Cz electrode, the experimenter awakened the participants promptly by a brief beep sound, followed by an approximately three-minute semi-structured interview regarding their conscious experiences before awakening through a patient intercom. (The interview questions are described in the file ""List of questions.docx"".) Specifically, any recalled experience, along with their modalities and details—such as the appearance of people, objects, landscapes, colors, motion, words, strangeness, and emotions—was recorded. The participants were requested to fall back to sleep at the end of each interview, which was also marked as the sleep onset. This process was repeated to obtain verbal reports in multiple hypnagogic transients. Participants were also requested to report spontaneously whenever they had subjective experience in the absence of the awakening beep sound, by squeezing a cuff-balloon connected to a whistle outside the shielded room. There was an interval of at least 60 seconds between the sleep onset and the subsequent awakening. However, when sleep rapidly progressed to deeper stages, in which experience tended to be hard to recall and the subjective reports ambiguous, the participants were awakened with an interval shorter than 60 seconds. Most awakenings occurred during the N1 or N2 stages, and the final sleep stage was categorized through manual classification. The experiment continued for up to two hours from the beginning of the nap. Most participants took part in the experiment for two separate days, while some participated for three or more days. The detailed mental reports are not included in the dataset at present but will be uploaded in the future as the research progresses.
+
+
+### DREAM categorization procedure ###
+
+We defined ""dreams"" as any mental experience during sleep and categorized dreams following the classification of the DREAM database as follows
+
+* 2 = Experience
+* 1 = Experience without recall
+* 0 = No experience
+* -1 = Experience with or without recall
+* -2 = No experience or Experience without recall
+* -3 = Experience or No experience
+* -4 = Unknown
+
+
+Technical details
+-----------------
+
+The columns for information regarding MEG data, ""MEG sample rate"" and ""Number of MEG channels,"" were added to the Records.csv file. The Neuromag system has two sensor types: magnetometer and gradiometer. Channel labels with xxx1 indicate magnetometers, and channel labels with xxx2 or xxx3 indicate gradiometers. The channel unit (physical dimension) for magnetometers is ""T,"" while that for gradiometers is ""T/m."" If a particular MEG channel did not respond well during the experiment, it is indicated in the ""Remarks"" column of the Record.csv file as ""MEGxxxx was a bad channel"".
+
+
+### Data acquisition ###
+
+MEG signals were measured with the Neuromag system (Elekta/MEGIN, 306 channels). Electroencephalography (EEG) signals were also measured from Fz, Cz, and Pz following the international 10-20 system, and eye movements were monitored using electrooculography (EOG, left and right) with passive electrodes. The ground electrode was attached to the forehead, and the EEG and EOG signals were referenced to the left earlobe. The impedance of the electrodes was checked to be below 15 kOhms prior to the recording. MEG, EEG, and EOG data were recorded simultaneously by the MEG system. All data were recorded at 1000 Hz. The head location relative to the MEG sensors was recorded by four head position indicator (HPI) coils attached above the left and right eyebrows and the left and right mastoids.
+
+
+### Data preprocessing ###
+
+Maxfilter (Elekta, version 2.2) was applied to the MEG raw data fif files to mitigate external magnetic interference. No other preprocessing was performed. Raw data may be requested from the corresponding author.
+","Kyushu University, Fukuoka, Japan",2023-2024,#N/A,Chihiro Hiramatsu (email: chihiro@design.kyushu-u.ac.jp),#N/A,1726120270,Open,FALSE,TRUE
+23,13,2,1761713957,Tononi Serial Awakenings,#N/A,17,https://doi.org/10.26180/23306054.v3,"Francesca Siclari, Benjamin Baird, Lampros Perogamvros, Melanie Boly, Joshua LaRocque, Giulio Tononi",287,39,0,0,1,0,0.432056,0.372822,1,Yes,Night,Free,"Dream EEG and Mentation (DREAM) dataset
+=======================================
+
+
+Dataset information
+-------------------
+
+- Common name: Tononi Serial Awakenings
+- Full name: N/A
+- Authors: Francesca Siclari, Benjamin Baird, Lampros Perogamvros, Melanie Boly, Joshua LaRocque, Giulio Tononi
+- Location: Madison, WI
+- Year: 2016
+- Set ID: 13
+- Amendment: 2
+- Corresponding author ID: 17
+
+Previous publications:  
+Siclari et al Nature Neuroscience 2017
+
+Correspondence:  
+Lampros Perogamvros (email: lampros.perogamvros@unige.ch)
+
+
+Metadata
+--------
+
+- Key ID: 22
+- Date entered: 2025-10-29T04:59:17+00:00
+- Number of samples: 287
+- Number of subjects: 39
+- Proportion REM: 0%
+- Proportion N1: 0%
+- Proportion N2: 100%
+- Proportion W: 0%
+- Proportion experience: 43%
+- Proportion no-experience: 37%
+- Proportion healthy: 100%
+- Provoked awakening: Yes
+- Time of awakening: Night
+- Form of response: Free
+- Date approved: 2025-10-30T02:21:07+00:00
+
+
+How to decode data files
+------------------------
+
+File ""Data/HydroCelGSN256v10.sfp"" gives the channel locations for all PSGs. It is a BESA surface point coordinate or EGI-xyz Cartesian coordinate file (.sfp); details about this format may be found at http://wiki.besa.de/index.php?title=Working_With_Additional_Files&oldid=5145.
+
+File ""Data/AdditionalData.csv"" contains data on ""Perception (yes=1, no=0)"", and ""Duration of continuous experiences before alarm 0-5s=1, >5-10s=2, >10s-1min=3,>1-10min=4,>10min-1h=5, >1h=6"".
+
+
+
+### Treatment group codes ###
+
+N/A
+
+
+Experimental description
+------------------------
+
+**Amendment 2 Note**
+
+Subjects 37-39 were added.
+
+**Original Description**
+
+Procedure. The procedure used in this study has been described in detail in a previous publication9. Awakenings in the sleep laboratory were performed at pseudorandom intervals, irrespective of sleep stage, using a computerized sound that lasted 1.5 s, which was administered through E-Prime (Psychology Software Tools, Pittsburgh, PA). Subjects were instructed to signal that they had heard the alarm sound and to lie quietly on their back. They then underwent a structured interview via intercom about their mental activity that lasted between 20 s and 3.5 min, depending on whether the subject reported a conscious experience and had to answer additional questions related to the content. Signed informed consent was obtained from all participants before the experiment, and ethical approval for the study was obtained from the University of Wisconsin–Madison Institutional Review Board. Data collection and analysis were not performed blind to the conditions of the experiments.
+
+Study participants in experiment 1. Thirty-two healthy subjects (12 males, age 46 ± 13.3 years (mean ± s.d.), range 24–65 years), selected from a group of 69 subjects participating in a larger research project in our laboratory, were included in this experiment. Subjects were randomly selected from the subset of all participants that had at least one DE and NE report in NREM sleep during the same night. Among the 240 awakenings performed in these 32 subjects, 5 had to be excluded for technical problems and 2 because subjects were too somnolent upon awakening to answer questions reliably. Comparisons between DEWR–NE conditions and DE–DEWR conditions were performed in the subset of these participants (N = 20) that had all three types (DE, DEWR, NE) of report during the same night. In REM sleep, only 6 of the 69 participants presented both DE and NE. They were all included in the analysis.
+
+Sleep recordings. Recordings were made at the Wisconsin Center for Sleep and Consciousness. They were performed using a 256-channel high-density EEG (hd-EEG) system (Electrical Geodesics, Inc., Eugene, Ore.). Four of the 256 electrodes placed at the outer canthi of the eyes were used to monitor eye movements; additional polysomnography channels were used to record submental electromyography. Sleep scoring was performed over 30-s epochs, according to standard criteria.
+
+
+### DREAM categorization procedure ###
+
+We have converted dream categories in Records.csv as DE = Experience, DEWR = Experience without recall, NE = No Experience.
+
+
+Technical details
+-----------------
+
+N/A
+
+
+### Data acquisition ###
+
+EGI Geodesic with concurrent Alice PSG
+
+
+### Data preprocessing ###
+
+Raw data (no preprocessing)
+","Madison, WI",2016,Siclari et al Nature Neuroscience 2017,Lampros Perogamvros (email: lampros.perogamvros@unige.ch),#N/A,1761790867,Open,FALSE,TRUE
